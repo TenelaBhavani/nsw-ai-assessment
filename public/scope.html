@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Scope of Applying the Framework</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-sans scroll-smooth">
+
+  <!-- ================= TOP NAVIGATION ================= -->
+    <nav class="bg-blue-900 text-white shadow-lg fixed top-0 w-full z-50">
+    <div class="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
+      <h1 class="text-xl font-semibold">NSW AI Framework</h1>
+      <div class="space-x-8 text-sm">
+        <a href="index.html" class="hover:text-yellow-300 transition">Home</a>
+        <a href="contents.html" class="hover:text-yellow-300 transition">Contents</a>
+        <a href="login.html"
+           class="bg-red-500 px-4 py-1 rounded-lg hover:bg-red-600 transition">
+          Logout
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ================= HERO SECTION ================= -->
+  <!-- ================= HERO SECTION ================= -->
+<section class="relative h-screen flex items-center justify-center text-white">
+
+  <div class="absolute inset-0">
+    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475"
+         class="w-full h-full object-cover">
+    <div class="absolute inset-0 bg-blue-900 bg-opacity-85"></div>
+  </div>
+
+  <div class="relative z-10 text-center max-w-4xl px-6">
+    <h1 class="text-5xl font-light leading-tight">
+      1. Scope of applying <br>
+      <span class="font-semibold">the Framework</span>
+    </h1>
+
+    <p class="mt-6 text-lg text-gray-200">
+      Determine whether your solution/project should use the AIAF and when.
+    </p>
+  </div>
+
+</section>
+
+
+
+<!-- ================= ELEVATED RISK SECTION ================= -->
+<section class="bg-gray-100 py-16 px-6">
+
+  <div class="max-w-7xl mx-auto"></div>
+
+
+
+    <!-- ================= PROCESS FLOW ================= -->
+ <!-- ================= ELEVATED RISK SECTION ================= -->
+<section class="bg-gray-100 py-16 px-10">
+
+  <div class="max-w-7xl mx-auto">
+
+    <!-- Heading -->
+    <h2 class="text-4xl font-light text-gray-900 mb-6">
+      Is your system a potential elevated risk?
+    </h2>
+
+    <div class="border-b border-gray-400 mb-6"></div>
+
+    <p class="text-gray-700 text-sm mb-10 font-medium">
+      Evaluate potential elevated risk prior to starting the self-assessment
+      as it is used throughout the self-assessment.
+    </p>
+
+    <!-- MAIN STRUCTURE -->
+    <div class="grid grid-cols-12 gap-10">
+
+      <!-- ================= LEFT SIDE (6 TALL BOXES) ================= -->
+      <div class="col-span-9">
+        <div class="grid grid-cols-6 gap-3">
+
+          <!-- Repeat for all 6 -->
+          <div class="bg-gray-200 p-6 min-h-[380px] rounded">
+            <h4 class="font-semibold text-blue-900 mb-4">
+              Operational impact
+            </h4>
+            <p class="text-sm">
+             Does your system produce or directly influence an administrative decisions (government decision with legal or similar significant effect)? 
+
+            </p>
+            <p class="text-xs text-gray-500 mt-4">
+              i.e., automating decisions on issuing infringements.
+            </p>
+          </div>
+
+          <div class="bg-gray-200 p-6 min-h-[380px] rounded">
+            <h4 class="font-semibold text-blue-900 mb-4">
+              Triggered actions
+            </h4>
+            <p class="text-sm">
+              Does your system trigger a real-world action with more than negligible potential effect (meaningful change to environment or system state)? 
+
+            </p>
+            <p class="text-xs text-gray-500 mt-4">
+              i.e., automated alerting system.
+            </p>
+          </div>
+
+          <div class="bg-gray-200 p-6 min-h-[380px] rounded">
+            <h4 class="font-semibold text-blue-900 mb-4">
+              Autonomous
+            </h4>
+            <p class="text-sm">
+              Does your system operate autonomously or have potential to produce harmful outputs independently of human action, without requiring manual initiation? 
+
+            </p>
+            <p class="text-xs text-gray-500 mt-4">
+              i.e., autonomous vehicles.
+            </p>
+          </div>
+
+          <div class="bg-gray-200 p-6 min-h-[380px] rounded">
+            <h4 class="font-semibold text-blue-900 mb-4">
+              Data sensitivity
+            </h4>
+            <p class="text-sm">
+              Was any part of your system trained using sensitive information or can it produce outputs which contain sensitive information? 
+
+            </p>
+            <p class="text-xs text-gray-500 mt-4">
+              i.e., biometric face matching.
+            </p>
+          </div>
+
+          <div class="bg-gray-200 p-6 min-h-[380px] rounded">
+            <h4 class="font-semibold text-blue-900 mb-4">
+              Unintended harms
+            </h4>
+            <p class="text-sm">
+              Is there a risk of system failure, misuse, or inappropriately deployed that could cause harm to an individual or group? 
+
+            </p>
+            <p class="text-xs text-gray-500 mt-4">
+              i.e., unverifiable data inputs.
+            </p>
+          </div>
+
+          <div class="bg-gray-200 p-6 min-h-[380px] rounded">
+            <h4 class="font-semibold text-blue-900 mb-4">
+              Explainability & Transparency
+            </h4>
+            <p class="text-sm">
+              Does your system fail to provide explainability for generated content and decisions, hindering comprehension by laypeople and assessment by technical experts?
+
+            </p>
+            <p class="text-xs text-gray-500 mt-4">
+              i.e., information informing policy development.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ================= RIGHT SIDE DECISION PANEL ================= -->
+      <div class="col-span-3 space-y-5">
+
+        <!-- YES -->
+        <div class="bg-green-100 border-l-4 border-green-600 p-4 rounded">
+          <h4 class="font-semibold text-green-800 mb-2">Yes</h4>
+          <p class="text-sm">
+            Yes to any question means your use is potentially at elevated risk,
+            and additional mitigation covered in this framework will apply.
+          </p>
+        </div>
+
+        <!-- NO -->
+        <div class="bg-red-100 border-l-4 border-red-600 p-4 rounded">
+          <h4 class="font-semibold text-red-800 mb-2">No</h4>
+          <p class="text-sm">
+            No to all questions means you are not using AI in a manner
+            which is potentially elevated risk.
+          </p>
+        </div>
+
+        <!-- Elevated Risk -->
+         
+        <div class="bg-yellow-100 border-l-4 border-yellow-600 p-4 rounded">
+          <h4 class="font-semibold text-yellow-800 mb-3"><br>
+            Elevated risk
+          </h4>
+          <p class="text-sm ">
+            To determine whether your use is potentially at elevated risk,
+            apply judgement based on your specific use case.
+            If unsure, assume it is elevated risk.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- ================= CAN I STILL USE AI SECTION ================= -->
+<section class="bg-gray-50 py-20 px-6">
+
+  <div class="max-w-7xl mx-auto">
+
+    <!-- Heading -->
+    <h2 class="text-4xl font-light text-gray-900 leading-tight mb-4">
+      Can I still use AI for a potentially elevated risk?
+    </h2>
+
+    <div class="border-b border-gray-300 mb-10"></div>
+
+    <!-- Content -->
+    <div class="space-y-4 text-gray-700 text-base leading-relaxed">
+
+      <p>
+        The range of considerations to ensure the appropriate use of AI will vary 
+        considerably across different use cases. Ultimately, it is a decision made 
+        within the Agency, considering all other alternatives and whether the use 
+        of the solution leads to better outcomes compared to taking no action at all.
+      </p>
+
+      <p>
+        Care should be taken to ensure independent evaluation and monitoring 
+        for potential harms at different stages of the system lifecycle. The level 
+        of independence in the review process should be heightened for elevated risks. 
+        Guidance is provided during the self-assessment process.
+      </p>
+
+      <p>
+        Language models and generative AI used for decision making, prioritisation 
+        or automation require special care around output validation, ensuring a 
+        final decision is made by an appropriately authorised and qualified person.
+      </p>
+
+      <!-- Highlight Box -->
+      <div class="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg mt-6">
+        <p class="text-sm text-gray-800">
+          For more information on considerations and risks associated with automated 
+          administrative decision making, see the NSW Ombudsman’s 
+          <span class="font-semibold">
+            Automated Decision-Making in the Public Sector
+          </span> resources.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- ================= DO I NEED TO USE THE FRAMEWORK ================= -->
+<section class="bg-gray-50 py-20 px-6">
+
+  <div class="max-w-7xl mx-auto">
+
+    <!-- Heading -->
+    <h2 class="text-4xl font-light text-gray-900 mb-4">
+      Do I need to use the framework?
+    </h2>
+
+    <div class="border-b border-gray-400 mb-6"></div>
+
+    <p class="text-gray-700 mb-10">
+      Does your system look like (or have elements of) the following?
+    </p>
+
+    <!-- ================= TOP ROW ================= -->
+    <div class="flex flex-wrap gap-4 items-stretch text-sm">
+
+      <!-- 4 SYSTEM BOXES -->
+      <div class="flex-1 min-w-[180px] bg-white p-5 rounded-lg shadow text-center">
+        Buy AI and use
+      </div>
+    
+      <div class="flex-1 min-w-[180px] bg-white p-5 rounded-lg shadow text-center">
+        Generative AI
+      </div>
+
+      <div class="flex-1 min-w-[180px] bg-white p-5 rounded-lg shadow text-center">
+        Decision Automation
+      </div>
+
+      <div class="flex-1 min-w-[180px] bg-white p-5 rounded-lg shadow text-center">
+        Data Processing AI
+      </div>
+
+      <!-- YES BOX -->
+      <div class="w-40 bg-blue-100 border border-blue-500 p-5 rounded-lg shadow text-center">
+        <h4 class="font-semibold text-blue-800">YES</h4>
+      </div>
+
+      <!-- UNSURE BOX -->
+      <div class="w-40 bg-gray-100 border border-gray-400 p-5 rounded-lg shadow text-center">
+        <h4 class="font-semibold text-gray-800">UNSURE</h4>
+      </div>
+
+    </div>
+
+    <!-- ================= BOTTOM ROW (ONLY NO) ================= -->
+    <div class="flex justify-end mt-6">
+
+      <div class="w-40 bg-red-100 border border-red-500 p-5 rounded-lg shadow text-center">
+        <h4 class="font-semibold text-red-800">NO</h4>
+      </div>
+
+    </div>
+
+    <!-- ================= YELLOW INSTRUCTION ================= -->
+    <div class="bg-yellow-100 border-l-4 border-yellow-500 p-6 rounded shadow-sm mt-12">
+      <h4 class="font-semibold text-yellow-800 mb-2">
+        Important Instruction
+      </h4>
+      <p class="text-sm text-gray-700">
+        If unsure whether your system qualifies as AI or elevated risk,
+        assume the framework applies and conduct the self-assessment.
+      </p>
+    </div>
+
+  </div>
+
+</section>
