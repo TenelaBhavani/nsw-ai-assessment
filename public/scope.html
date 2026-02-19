@@ -14,6 +14,7 @@
       <h1 class="text-xl font-semibold">NSW AI Framework</h1>
       <div class="space-x-8 text-sm">
         <a href="index.html" class="hover:text-yellow-300 transition">Home</a>
+        <a href="about-framework.html">Overview</a>
         <a href="contents.html" class="hover:text-yellow-300 transition">Contents</a>
         <a href="login.html"
            class="bg-red-500 px-4 py-1 rounded-lg hover:bg-red-600 transition">
@@ -46,16 +47,6 @@
 
 </section>
 
-
-
-<!-- ================= ELEVATED RISK SECTION ================= -->
-<section class="bg-gray-100 py-16 px-6">
-
-  <div class="max-w-7xl mx-auto"></div>
-
-
-
-    <!-- ================= PROCESS FLOW ================= -->
  <!-- ================= ELEVATED RISK SECTION ================= -->
 <section class="bg-gray-100 py-16 px-10">
 
@@ -204,7 +195,7 @@
 
 </section>
 <!-- ================= CAN I STILL USE AI SECTION ================= -->
-<section class="bg-gray-50 py-20 px-6">
+<section class="bg-gray-100 py-8 px-10">
 
   <div class="max-w-7xl mx-auto">
 
@@ -255,73 +246,260 @@
 
 </section>
 <!-- ================= DO I NEED TO USE THE FRAMEWORK ================= -->
-<section class="bg-gray-50 py-20 px-6">
+<section class="bg-gray-100 py-8 px-10">
 
   <div class="max-w-7xl mx-auto">
-
     <!-- Heading -->
-    <h2 class="text-4xl font-light text-gray-900 mb-4">
+    <h2 class="text-4xl font-light text-gray-900 mb-5">
       Do I need to use the framework?
     </h2>
 
-    <div class="border-b border-gray-400 mb-6"></div>
+    <div class="border-b border-gray-400 mb-8"></div>
 
-    <p class="text-gray-700 mb-10">
+    <p class="text-gray-800 mb-12 font-medium">
       Does your system look like (or have elements of) the following?
     </p>
 
-    <!-- ================= TOP ROW ================= -->
-    <div class="flex flex-wrap gap-4 items-stretch text-sm">
+    <!-- MAIN GRID -->
+    <div class="grid lg:grid-cols-12 gap-8">
 
-      <!-- 4 SYSTEM BOXES -->
-      <div class="flex-1 min-w-[180px] bg-white p-5 rounded-lg shadow text-center">
-        Buy AI and use
+      <!-- LEFT SIDE (4 BOXES + YES/NO) -->
+      <div class="lg:col-span-8">
+
+        <!-- 4 AI TYPE BOXES -->
+        <div class="grid sm:grid-cols-2 xl:grid-cols-4 gap-6 mb-8">
+
+          <!-- BOX 1 -->
+          <div class="bg-gray-200 p-6 rounded-md">
+            <h4 class="font-semibold text-blue-900 mb-3">
+              Buy AI and use
+            </h4>
+            <p class="text-sm text-gray-700">
+              Buying or using an off-the-shelf system without modifying
+              algorithms or adding domain-specific content.
+            </p>
+            <p class="text-xs text-gray-500 mt-2">
+              i.e. ChatGPT, AI in Salesforce, SAP, etc.
+            </p>
+          </div>
+
+          <!-- BOX 2 -->
+          <div class="bg-gray-200 p-6 rounded-md">
+            <h4 class="font-semibold text-blue-900 mb-3">
+              Embed AI and/or co-train
+            </h4>
+            <p class="text-sm text-gray-700">
+              Developing a product with embedded AI or purchasing an AI platform and augmented training data with domain-specific content. 
+
+            </p>
+              <p class="text-xs text-gray-500 mt-2">
+              i.e., integrating AI biometrics or developing a chatbot with augmented training.
+
+            </p>
+          </div>
+
+          <!-- BOX 3 -->
+          <div class="bg-gray-200 p-6 rounded-md">
+            <h4 class="font-semibold text-blue-900 mb-3">
+              Develop AI and/or train
+            </h4>
+            <p class="text-sm text-gray-700">
+              Developing an AI tool in-house. Even if based on a standard platform, I am developing algorithms and supplying the training data
+            </p>
+            </p>
+              <p class="text-xs text-gray-500 mt-2">
+              i.e. Developing anomaly detection or training LLM with domain-specific content.
+            </p>
+
+          </div>
+
+          <!-- BOX 4 -->
+          <div class="bg-gray-200 p-6 rounded-md">
+            <h4 class="font-semibold text-blue-900 mb-3">
+              Automating decisions
+            </h4>
+            <p class="text-sm text-gray-700">
+              Developing a tool in-house that uses AI and that automates at least one critical step in the decision-making process. 
+
+            </p>
+            <p class="text-xs text-gray-500 mt-2">
+              i.e. AI powered hiring and recruitment.
+            </p>
+
+          </div>
+
+        </div>
+
+        <!-- YES / NO ROW -->
+        <div class="grid md:grid-cols-2 gap-6">
+
+          <!-- YES -->
+          <div class="bg-orange-100 border-l-4 border-orange-500 p-6 rounded-md">
+            <p class="text-sm text-orange-900 font-medium">
+              If the answer is <strong>YES</strong> to any question,
+              consult the guidance on when the framework may not be needed.
+            </p>
+          </div>
+
+          <!-- NO -->
+          <div class="bg-green-100 border-l-4 border-green-600 p-6 rounded-md">
+            <p class="text-sm text-green-900 font-medium">
+              If the answer is <strong>NO</strong> to all questions,
+              there is no need to use the framework unless
+              you have AI risk concerns.
+            </p>
+          </div>
+
+        </div>
+
       </div>
-    
-      <div class="flex-1 min-w-[180px] bg-white p-5 rounded-lg shadow text-center">
-        Generative AI
+
+      <!-- RIGHT SIDE GUIDE BOX -->
+      <div class="lg:col-span-4">
+
+        <div class="bg-yellow-100 border-t-4 border-yellow-500 p-4 rounded-md h-full">
+          <h4 class="font-semibold text-yellow-900 mb-2">
+            Guide: When the framework may not be needed
+          </h4>
+
+          <p class="text-sm text-gray-800 mb-2">
+            All NSW Agencies must ensure the safe and responsible use of AI. Like any digital solution and data usage, accountability lies with the agency. 
+
+          </p>
+
+          <p class="text-sm text-gray-800 mb-2">
+             This framework identifies key risks and harms to be mitigated. Its applicability hinges on agency specific use cases and nature of business. 
+
+          </p>
+
+          <p class="text-sm text-gray-800 mb-2">
+            As a guide, you may not need to apply the framework if you are using a widely available commercial application (which you are not training or customising) or conducting exploratory research that does not meet the criteria of elevated risk. If you are unsure, apply the Framework and always ensure you record your decisions in your records management system
+          </p>
+
+          <p class="text-sm text-gray-800 mb-2">
+            Note, Digital NSW is presently collaborating with agencies to devise compliance plans. This initiative aims to enhance transparency in the government's efforts to ensure the responsible and safe utilisation of AI, which is essential for building confidence and trust.
+
+          </p>
+        </div>
+
       </div>
 
-      <div class="flex-1 min-w-[180px] bg-white p-5 rounded-lg shadow text-center">
-        Decision Automation
-      </div>
-
-      <div class="flex-1 min-w-[180px] bg-white p-5 rounded-lg shadow text-center">
-        Data Processing AI
-      </div>
-
-      <!-- YES BOX -->
-      <div class="w-40 bg-blue-100 border border-blue-500 p-5 rounded-lg shadow text-center">
-        <h4 class="font-semibold text-blue-800">YES</h4>
-      </div>
-
-      <!-- UNSURE BOX -->
-      <div class="w-40 bg-gray-100 border border-gray-400 p-5 rounded-lg shadow text-center">
-        <h4 class="font-semibold text-gray-800">UNSURE</h4>
-      </div>
-
-    </div>
-
-    <!-- ================= BOTTOM ROW (ONLY NO) ================= -->
-    <div class="flex justify-end mt-6">
-
-      <div class="w-40 bg-red-100 border border-red-500 p-5 rounded-lg shadow text-center">
-        <h4 class="font-semibold text-red-800">NO</h4>
-      </div>
-
-    </div>
-
-    <!-- ================= YELLOW INSTRUCTION ================= -->
-    <div class="bg-yellow-100 border-l-4 border-yellow-500 p-6 rounded shadow-sm mt-12">
-      <h4 class="font-semibold text-yellow-800 mb-2">
-        Important Instruction
-      </h4>
-      <p class="text-sm text-gray-700">
-        If unsure whether your system qualifies as AI or elevated risk,
-        assume the framework applies and conduct the self-assessment.
-      </p>
     </div>
 
   </div>
 
+</section>
+
+<!-- =================  When you need to apply the framework ================= -->
+<section class="bg-gray-100 py-16 px-10">
+  <div class="max-w-7xl mx-auto">
+
+    <!-- Heading -->
+    <h2 class="text-4xl font-light text-gray-900 leading-tight mb-6">
+      When you need to apply the framework
+    </h2>
+
+    <!-- Divider -->
+    <div class="border-b border-gray-300 mb-12"></div>
+
+<!-- Process Flow -->
+<div class="mb-16">
+  <div class="flex items-center justify-between gap-2">
+
+    <div class="bg-blue-600 text-white px-3 py-4 flex-1 text-xs font-medium text-center">
+      (Re) Design and <br>(Re) develop
+    </div>
+
+    <span class="text-gray-600 text-lg">→</span>
+
+    <div class="bg-blue-600 text-white px-3 py-4 flex-1 text-xs font-medium text-center">
+      Procurement <br>"Source"
+    </div>
+
+    <span class="text-gray-600 text-lg">→</span>
+
+    <div class="bg-blue-600 text-white px-3 py-4 flex-1 text-xs font-medium text-center">
+      Verify and <br>validate through pilot
+    </div>
+
+    <span class="text-gray-600 text-lg">→</span>
+
+    <div class="bg-blue-600 text-white px-3 py-4 flex-1 text-xs font-medium text-center">
+      Procurement <br>"Source"
+    </div>
+
+    <span class="text-gray-600 text-lg">→</span>
+
+    <div class="bg-blue-600 text-white px-3 py-4 flex-1 text-xs font-medium text-center">
+      Deploy and <br>evaluate
+    </div>
+
+    <span class="text-gray-600 text-lg">→</span>
+
+    <div class="bg-blue-600 text-white px-3 py-4 flex-1 text-xs font-medium text-center">
+      Operate, monitor, <br>maintain
+    </div>
+
+    <span class="text-gray-600 text-lg">→</span>
+
+    <div class="bg-blue-600 text-white px-3 py-4 flex-1 text-xs font-medium text-center">
+      Re-evaluate
+    </div>
+
+  </div>
+</div>
+
+
+    <!-- Two Column Content -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+
+      <!-- Left Column -->
+      <div>
+        <h3 class="text-xl font-semibold text-blue-900 mb-4">
+          Apply the AI Assessment Framework over the system lifecycle
+        </h3>
+
+        <p class="text-gray-700 leading-relaxed mb-8">
+          After initially applying the framework, reassess your risk against it at each project phase and throughout the system lifecycle, following the frequencies recommended by your Agency Assurance function or the AI review Committee. All uses of AI should be piloted to verify correct operation, and then evaluated before being deployed at scale.
+        </p>
+
+        <!-- Highlight Box -->
+        <div class="bg-yellow-100 border-t-4 border-yellow-500 p-6">
+          <h4 class="font-semibold text-yellow-800 mb-3">
+            Aligning with Procurement
+          </h4>
+          <p class="text-gray-700 text-sm leading-relaxed">
+            It's important to ensure that AI uses involving procurement of products or services identify and track associated risks and mitigations. This ensures they aren't overlooked during procurement, and suppliers' responsibilities are maintained throughout the lifecycle of the system. For more information contact: procurement at ICTServices@customerservice.nsw.gov.au.
+          </p>
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div>
+        <h3 class="text-xl font-semibold text-blue-900 mb-4">
+          Ongoing risk assessment beyond project phases
+        </h3>
+
+        <p class="text-gray-700 leading-relaxed mb-4">
+          Beyond project phases, consider scenarios for when you should reassess your risk against the framework, including some examples:
+        </p>
+
+        <ul class="list-disc pl-6 text-gray-700 space-y-3">
+          <li>You are about to introduce the use of AI into an existing system</li>
+          <li>You have discovered that you are using AI but haven’t applied the AIAF</li>
+          <li>You or a supplier of your system are about to change the data, algorithm, model, or technology</li>
+          <li>You are about to change the purpose, use case, or intended use of the system</li>
+          <li>You are considering altering the level of human oversight or involvement</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Footer Line -->
+    <div class="border-t border-gray-300 mt-12 pt-6 text-sm text-gray-500 flex justify-between">
+      <span>The NSW AI Assessment Framework</span>
+
+    </div>
+
+  </div>
 </section>
