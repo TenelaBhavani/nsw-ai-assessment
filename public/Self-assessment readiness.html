@@ -8,48 +8,93 @@
 
 <body class="font-sans scroll-smooth">
 
-  <!-- ================= TOP NAVIGATION ================= -->
-    <nav class="bg-blue-900 text-white shadow-lg fixed top-0 w-full z-50">
-    <div class="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
-      <h1 class="text-xl font-semibold">NSW AI Framework</h1>
-      <div class="space-x-8 text-sm">
-        <a href="index.html" class="hover:text-yellow-300 transition">Home</a>
-        <a href="about-framework.html">Overview</a>
-        <a href="contents.html" class="hover:text-yellow-300 transition">Contents</a>
-        <a href="login.html"
-           class="bg-red-500 px-4 py-1 rounded-lg hover:bg-red-600 transition">
-          Logout
-        </a>
-      </div>
+<!-- ================= NAVIGATION ================= -->
+<nav class="bg-blue-900 text-white fixed w-full z-50 shadow-lg">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+    <h1 class="text-xl font-semibold tracking-wide">
+      NSW AI Framework
+    </h1>
+
+    <div class="space-x-8 text-sm">
+      <a href="index.html" class="hover:text-yellow-300 transition">Home</a>
+      <a href="about-framework.html">Overview</a>
+      <a href="contents.html" class="hover:text-yellow-300 transition">Contents</a>
+      <a href="resources.html">Resources</a>
+      <a href="login.html"
+         class="bg-red-500 px-4 py-1 rounded-lg hover:bg-red-600 transition">
+         Logout
+      </a>
     </div>
-  </nav>
+  </div>
+</nav>
+<!-- ================= STICKY FLOW NAV ================= -->
+<div class="sticky top-16 z-40 bg-white shadow-sm">
+  <div class="max-w-7xl mx-auto px-6 py-2 flex items-center justify-center gap-3 overflow-x-auto whitespace-nowrap">
 
-  <!-- ================= HERO SECTION ================= -->
-  <!-- ================= HERO SECTION ================= -->
-<section class="relative h-screen flex items-center justify-center text-white">
+    <a href="scope.html"
+       class="bg-gray-100 text-blue-900 px-4 py-2 text-sm rounded-full font-semibold">
+       Framework Application
+    </a>
 
+    <span class="text-gray-400">→</span>
+
+    <a href="Self-assessment readiness.html"
+       class="bg-yellow-500 text-blue-900 px-4 py-2 text-sm rounded-full font-semibold">
+       Readiness
+    </a>
+
+    <span class="text-gray-400">→</span>
+
+    <a href="risk summary.html"
+       class="bg-gray-100 text-blue-900 px-4 py-2 text-sm rounded-full font-semibold">
+       Risk Summary
+    </a>
+
+    <span class="text-gray-400">→</span>
+
+    <a href="mitigration.html"
+       class="bg-gray-100 text-blue-900 px-4 py-2 text-sm rounded-full font-semibold">
+       Mitigation & Next
+    </a>
+
+    <span class="text-gray-400">→</span>
+
+    <a href="End self-assessment stage.html"
+       class="bg-gray-100 text-blue-900 px-4 py-2 text-sm rounded-full font-semibold">
+       Stage End
+    </a>
+
+  </div>
+</div>
+
+
+<!-- ================= HERO SECTION ================= -->
+<section class="relative h-screen flex flex-col justify-center items-center text-white">
+
+  <!-- Background -->
   <div class="absolute inset-0">
     <img src="https://images.unsplash.com/photo-1518770660439-4636190af475"
          class="w-full h-full object-cover">
     <div class="absolute inset-0 bg-blue-900 bg-opacity-85"></div>
   </div>
 
-  <div class="relative z-10 text-center max-w-4xl px-6">
-    <h1 class="text-5xl font-light leading-tight">
-      2. Self Assessment <br>
+  <!-- Hero Content -->
+  <div class="relative z-10 text-center max-w-6xl px-6">
+    <h1 class="text-6xl font-light leading-tight mb-6">
+      2. Self-assessment <br>
       <span class="font-semibold">Readiness</span>
     </h1>
 
-    <p class="mt-6 text-lg text-gray-200">
-     Recognise the importance of assessing AI benefits and risks, understand the structured self-assessment process, and identify responsible officers.
-
+    <p class="text-lg text-gray-200 leading-relaxed">
+      Recognise the importance of assessing AI benefits and risks, understand the structured self-assessment process, and identify responsible officers.
     </p>
-    <h3 class ="text-3xl font-semibold mt-12 mb-4">
-      The start of the self-assessment
 
   </div>
 
 </section>
+
+
 
 <section class="bg-gray-100 py-20 px-12 min-h-screen">
 
@@ -631,11 +676,25 @@
     </div>
 
   </div>
+  <div class="flex justify-end mt-8">
+  <a href="risk summary.html"
+     class="bg-blue-800 hover:bg-blue-900 text-white text-sm font-semibold px-6 py-2 rounded shadow transition duration-200">
+     Next →
+  </a>
+</div>
+    <!-- Footer Line -->
+    <div class="border-t border-gray-300 mt-12 pt-6 text-sm text-gray-500 flex justify-between">
+      <span>The NSW AI Assessment Framework</span>
+
+    </div>
+
+  </div>
 </section>
 
 </body>
 </html>
-   
+
+
 
 
 

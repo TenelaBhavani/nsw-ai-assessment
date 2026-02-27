@@ -2,49 +2,478 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Useful resources
-</title>
+  <title>Useful Resources</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="font-sans scroll-smooth">
+<body class="bg-gray-100 font-sans">
 
-  <!-- ================= TOP NAVIGATION ================= -->
-    <nav class="bg-blue-900 text-white shadow-lg fixed top-0 w-full z-50">
-    <div class="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
-      <h1 class="text-xl font-semibold">NSW AI Framework</h1>
-      <div class="space-x-8 text-sm">
-        <a href="index.html" class="hover:text-yellow-300 transition">Home</a>
-        <a href="about-framework.html">Overview</a>
-        <a href="contents.html" class="hover:text-yellow-300 transition">Contents</a>
-        <a href="login.html"
-           class="bg-red-500 px-4 py-1 rounded-lg hover:bg-red-600 transition">
-          Logout
-        </a>
-      </div>
-    </div>
-  </nav>
+<!-- ================= NAVIGATION ================= -->
+<nav class="bg-blue-900 text-white fixed w-full z-50 shadow-lg">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
-  <!-- ================= HERO SECTION ================= -->
-  <!-- ================= HERO SECTION ================= -->
-<section class="relative h-screen flex items-center justify-center text-white">
-
-  <div class="absolute inset-0">
-    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475"
-         class="w-full h-full object-cover">
-    <div class="absolute inset-0 bg-blue-900 bg-opacity-85"></div>
-  </div>
-
-  <div class="relative z-10 text-center max-w-4xl px-6">
-    <h1 class="text-5xl font-light leading-tight">
-       <br>
-      <span class="font-semibold"> <h1>Useful Resources</h1>
-</span>
+    <h1 class="text-xl font-semibold tracking-wide">
+      NSW AI Framework
     </h1>
 
-    <p class="mt-6 text-lg text-gray-200">
-      Appendix B
+    <div class="space-x-8 text-sm">
+      <a href="index.html" class="hover:text-yellow-300 transition">Home</a>
+      <a href="about-framework.html">Overview</a>
+      <a href="contents.html" class="hover:text-yellow-300 transition">Contents</a>
+      <a href="resources.html">Resources</a>
+      <a href="login.html"
+         class="bg-red-500 px-4 py-1 rounded-lg hover:bg-red-600 transition">
+         Logout
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- ================= STICKY TABS ================= -->
+<div class="sticky top-20 z-15 bg-transparent">
+  <div class="max-w-3xl mx-auto px-6">
+    <div class="flex space-x-10 py-2 text-sm font-medium">
+
+      <button onclick="showTab('tab1', this)" class="tab-btn px-4 py-2 bg-blue-600 text-white rounded-lg">
+        Appendix A
+      </button>
+
+      <button onclick="showTab('tab2', this)" class="tab-btn px-4 py-2 bg-blue-100 text-blue-900 rounded-lg">
+        Appendix B
+      </button>
+
+      <button onclick="showTab('tab3', this)" class="tab-btn px-4 py-2 bg-blue-100 text-blue-900 rounded-lg">
+        Appendix C
+      </button>
+
+      <button onclick="showTab('tab4', this)" class="tab-btn px-4 py-2 bg-blue-100 text-blue-900 rounded-lg">
+        Appendix D
+      </button>
+
+      <button onclick="showTab('tab5', this)" class="tab-btn px-4 py-2 bg-blue-100 text-blue-900 rounded-lg">
+        Appendix E
+      </button>
+
+    </div>
+  </div>
+</div>
+
+<div class="h-2"></div>
+
+<!-- ================= TAB CONTENT ================= -->
+
+<section id="tab1" class="tab-content max-w-7xl mx-auto px-6 py-20 bg-white rounded-lg shadow">
+
+  <h2 class="text-3xl font-bold mb-6">Appendix A</h2>
+  <h2 class="text-5xl font-light text-gray-800 mb-10">Glossary</h2>
+  <hr class="border-gray-400 mb-10">
+
+  <!-- Two Column Layout -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-16 text-gray-800 text-[17px] leading-relaxed">
+
+    <!-- LEFT COLUMN -->
+    <div class="space-y-4">
+
+      <p><strong>Administrative Decision Making.</strong> Administrative decisions are usually made under legislation and are directed towards a particular person (or organisation). They are different from contractual and commercial decisions and policy and political decisions.</p>
+
+      <p><strong>Artificial Intelligence (AI).</strong> Is the ability of a computer system to perform tasks that would normally require human intelligence, such as learning, reasoning, and making decisions. AI encompasses various specialised domains that focus on different tasks and includes automation.</p>
+
+      <p><strong>Bias.</strong> In data, this means a systematic distortion in the sampled data that compromises its representativeness. In algorithms it describes systematic and repeatable errors in a computer system that create unfair outcomes, such as privileging one arbitrary group of users over others.</p>
+
+      <p><strong>Data Governance.</strong> Implementation of a set of policies, processes, structures, roles and responsibilities to ensure that an agency’s data is managed effectively and that it can meet its current and future business requirements.</p>
+
+      <p><strong>Data Lifecycle.</strong> A data life cycle illustrates the stages of data management required over time, from the time of planning and creation to the time that data is either archived or destroyed.</p>
+
+      <p><strong>Large language model (LLM).</strong> A specialised type of artificial intelligence that has been trained on vast amounts of text to understand existing content and generate original content.</p>
+
+      <p><strong>Operational AI.</strong> Systems that have a real-world effect. The purpose is to generate an action, either prompting a human to act, or the system acting by itself. Operational uses of AI often work in real time (or near real time) using a live environment for their source data.</p>
+
+      <p><strong>Significant Harm.</strong> Always context specific, a harm which leads to significant concerns. Example from NSW Department of Communities and Justice – “A child or young person is at risk of significant harm if the circumstances that are causing concern for the safety, welfare or wellbeing of the child or young person are present to a significant extent."</p>
+
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="space-y-4">
+
+      <p><strong>Data Quality.</strong> Data quality is generally accepted as meaning “fitness for purpose”. It is a term used to describe a documented agreement on the representation, format, and definition for data.</p>
+
+      <p><strong>Data use sensitivity.</strong> Means risks or considerations associated with data subjects themselves or use of data.</p>
+
+      <p><strong>Elevated risk.</strong> Elevated risk involves systems influencing decisions with legal or similar level consequences, triggering significant actions, operating autonomously, using sensitive data, risking harm, and lacking explainability.</p>
+
+      <p><strong>Generative AI.</strong> Is artificial intelligence capable of generating text, images, or other media, using generative models. Generative AI models learn the patterns and structure of their input training data and then generate new data that has similar characteristics.</p>
+
+      <p><strong>Hallucination.</strong> A hallucination or artificial hallucination is a response generated by an AI which contains false or misleading information.</p>
+
+      <p><strong>Harm.</strong> Means any adverse effects experienced by an individual (or organisation) including those which are socially, physically, or financially damaging.</p>
+
+      <p><strong>Human Rights.</strong> Are rights inherent to all human beings, regardless of race, sex, nationality, ethnicity, language, religion, or any other status. Human rights include the right to life and liberty, freedom from slavery and torture, freedom of opinion and expression, the right to work and education, and many more. Everyone is entitled to these rights, without discrimination.</p>
+
+      <p><strong>Responsible Officer.</strong> These include the Officer who is responsible for: use of the AI insights / decisions; the outcomes from the project; the technical performance of the AI system; data governance.</p>
+
+      <p><strong>Reversible harm.</strong> Means an adverse effect that can be reversed with some level of effort, cost and time.</p>
+
+      <p><strong>Secondary Harm.</strong> Means any adverse effects experienced by an individual (or organisation) not directly engaged with the AI system, or a subsequent harm identified after an initial harm is experienced by an individual (or organisation) engaged with the AI system.</p>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ================= TAB 2 (DEFAULT OPEN) ================= -->
+   <section id="tab2" class="tab-content max-w-7xl mx-auto px-6 py-20 bg-white rounded-lg shadow">
+
+  <h2 class="text-3xl font-bold mb-6">Appendix B</h2>
+  <h2 class="text-5xl font-light text-gray-800 mb-10">Policies, Guides and Frameworks</h2>
+  <hr class="border-gray-400 mb-10">
+ 
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-13 text-gray-800 text-[16px] leading-relaxed">
+
+    <!-- COLUMN 1 -->
+    <div>
+      <h3 class="font-semibold text-blue-900 mb-4">AI strategy and policy</h3>
+      <ul class="space-y-2 underline">
+        <li>AI Strategy</li>
+        <li>Digital Policy Landscape</li>
+        <li>AI Ethics Policy</li>
+      </ul>
+
+      <h3 class="font-semibold text-blue-900 mt-8 mb-4">General guidance on use of AI</h3>
+      <ul class="space-y-2 underline">
+        <li>Common AI Definitions</li>
+        <li>General Guidance on Use of Generative AI</li>
+      </ul>
+
+      <h3 class="font-semibold text-blue-900 mt-8 mb-4">Project governance</h3>
+      <ul class="space-y-2 underline">
+        <li>ICT Assurance</li>
+        <li>Benefits Realisation Management Framework</li>
+        <li>Digital Restart Fund</li>
+      </ul>
+
+      <h3 class="font-semibold text-blue-900 mt-8 mb-4">Privacy</h3>
+      <ul class="space-y-2 underline">
+        <li>NSW Information and Privacy Commission</li>
+        <li>Privacy by Design</li>
+        <li>Guide to NSW Privacy Impact Assessment</li>
+      </ul>
+    </div>
+
+    <!-- COLUMN 2 -->
+    <div>
+      <h3 class="font-semibold text-blue-900 mb-4">Data</h3>
+      <ul class="space-y-2 underline">
+        <li>NSW Data Strategy</li>
+        <li>NSW Data Policy</li>
+      </ul>
+
+      <h3 class="font-semibold text-blue-900 mt-8 mb-4">Cybersecurity</h3>
+      <ul class="space-y-2 underline">
+        <li>Cybersecurity Policy</li>
+        <li>Cybersecurity Guidelines for AI</li>
+      </ul>
+
+      <h3 class="font-semibold text-blue-900 mt-8 mb-4">Procurement guidance</h3>
+      <p>Note: in development</p>
+
+      <h3 class="font-semibold text-blue-900 mt-8 mb-4">Automated administrative decision making</h3>
+      <p>For guidance, see NSW Ombudsman website.</p>
+
+      <h3 class="font-semibold text-blue-900 mt-8 mb-4">Benefits realisation framework</h3>
+      <p>NSW Benefits Realisation Management Framework</p>
+
+      <h3 class="font-semibold text-blue-900 mt-8 mb-4">Project planning and co-design resources</h3>
+      <p>A guide to building co-design capability</p>
+    </div>
+
+    <!-- COLUMN 3 -->
+    <div>
+      <h3 class="font-semibold text-blue-900 mb-4">General Resources</h3>
+      <p>
+      Gradient Institute (with the National AI Centre hosted by CSIRO) -Implementing Australia's AI Ethics Principles: A selection of Responsible AI practices and resources. This 2023 report provides practical advice to organisations wanting to move beyond talk of High -level AI ethics principles and helps them implement AI responsibly. It gives example practices to help implement the Australian Government’s 8 Ethical Principles and, points to specific online resources to use.
+Data Sharing Frameworks The 2023 ACS report “Frameworks and Controls for Data Sharing” identifies the essential controls and methods to ensure that data is treated appropriately throughout its lifecycle, preserving the privacy of individuals while ensuring maximum possible value from data sharing practices.
+Risk Rewards and Resilience: developed by ANU, this framework provides a way of analysing complex policy issues, including AI.
+
+      </p>
+    </div>
+
+  </div>
+
+ <div class="bg-gray-50 py-12 mt-16 rounded-lg">
+
+    <!-- Title -->
+    <h1 class="text-4xl font-semibold text-gray-800 mb-2">
+      Lean Canvas
+    </h1>
+    <p class="text-gray-500 mb-6">
+      Community Benefit from the Use of AI Systems
     </p>
+
+    <hr class="mb-9">
+
+    <!-- Grid Layout -->
+    <div class="grid grid-cols-12 gap-8">
+
+      <!-- Left Side -->
+      <div class="col-span-3">
+        <h2 class="font-semibold text-blue-900 mb-2">
+          Community Benefit
+        </h2>
+
+        <p class="text-sm text-gray-700 mb-3">
+          Overall costs and benefits for the project likely
+          to be established by the business case.
+        </p>
+
+        <p class="text-sm text-gray-700 mb-3">
+          Community benefit in the use of AI to be set out:
+        </p>
+
+        <ul class="list-disc ml-5 text-sm text-gray-700 space-y-2">
+          <li>Were alternatives to AI considered and why were they discounted?</li>
+          <li>How will the use of AI result in improved customer and service delivery outcomes and efficiencies?
+</li>
+        </ul>
+      </div>
+
+      <!-- Right Side Canvas -->
+      <div class="col-span-9">
+
+        <h2 class="font-semibold text-blue-900 mb-6">
+          Lean Business Canvas: Title of Project
+        </h2>
+
+        <div class="grid grid-cols-4 gap-6">
+
+          <!-- Column 1 -->
+          <div class="space-y-6">
+            <div class="border-2 border-blue-600 p-4 h-40 rounded">
+              <h3 class="font-semibold text-blue-600">Hypothesis</h3>
+            </div>
+
+            <div class="border-2 border-blue-600 p-4 h-40 rounded">
+              <h3 class="font-semibold text-blue-600">Key Questions</h3>
+            </div>
+
+            <div class="border-2 border-blue-600 p-4 h-48 rounded">
+              <h3 class="font-semibold text-blue-600">Background / Problem</h3>
+            </div>
+          </div>
+
+          <!-- Column 2 -->
+          <div class="space-y-6">
+            <div class="border-2 border-blue-600 p-4 h-64 rounded">
+              <h3 class="font-semibold text-blue-600">Stakeholders</h3>
+            </div>
+
+            <div class="border-2 border-blue-600 p-4 h-64 rounded">
+              <h3 class="font-semibold text-blue-600">Data Available</h3>
+            </div>
+          </div>
+
+          <!-- Column 3 -->
+          <div class="space-y-6">
+            <div class="border-2 border-blue-600 p-4 h-48 rounded">
+              <h3 class="font-semibold text-blue-600">Desired Outcomes</h3>
+            </div>
+
+            <div class="border-2 border-blue-600 p-4 h-48 rounded">
+              <h3 class="font-semibold text-blue-600">Current Metrics</h3>
+            </div>
+          </div>
+
+          <!-- Column 4 -->
+          <div class="space-y-6">
+            <div class="border-2 border-blue-600 p-4 h-64 rounded">
+              <h3 class="font-semibold text-blue-600">Benefits</h3>
+            </div>
+
+            <div class="border-2 border-blue-600 p-4 h-48 rounded">
+              <h3 class="font-semibold text-blue-600">Value derived from project</h3>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
   </div>
 
 </section>
+<section id="tab3" class="tab-content hidden max-w-7xl mx-auto px-6 py-20 bg-white rounded-lg shadow">
+
+    <h2 class="text-3xl font-bold mb-6">Appendix C</h2>
+  <h2 class="text-5xl font-light text-gray-800 mb-10">Existing and Developing Standards Families relevant to AI</h2>
+  <h2 class="text-5xl font-light text-gray-800 mb-6">
+  </h2>
+
+  <hr class="border-gray-300 mb-8">
+
+  <p class="text-blue-900 font-semibold text-lg mb-6">
+    Where possible adopt and use standards. Standards are continually evolving.
+    The following section provides a snapshot of standards as of the time of this document's release.
+  </p>
+
+  <div class="space-y-6 text-gray-800 leading-relaxed text-[17px]">
+
+    <p>
+      Standards Australia provide the
+      <span class="underline">Data and Digital Dashboard</span>,
+      where you can interact with and see existing and emerging standards.
+    </p>
+
+    <p>
+      The <span class="underline">Data and Digital standards landscape</span>
+      June 2022 provides a view of existing and emerging standards.
+      This includes recent standards for data quality AI and ML (ISO/IEC AWI 5259-x standard)
+    </p>
+
+    <p>
+      The most recent standard related to AI management systems is the
+      <span class="underline">AS ISO/IEC 42001:2023</span>
+    </p>
+
+    <p>
+      The most relevant groups within the IEC/ISO/JTC1 family include subcommittees (SC)
+      for data sharing and use include:
+    </p>
+
+    <ul class="list-disc ml-8 space-y-3">
+      <li>SC 27 - Information Security, Cybersecurity and Privacy Protection</li>
+      <li>SC 32 - Data Management and Interchange - Within SC 32, Working Group 6 (WG6) on Data Usage</li>
+      <li>SC 38 - Cloud Computing and Distributed Platforms</li>
+      <li>SC 40 - IT Service Management and IT Governance</li>
+      <li>SC 41 – Internet of Things and Digital Twin</li>
+      <li>SC 42 - Artificial Intelligence</li>
+    </ul>
+
+    <p>
+      The ISO/IEC25000 series standards focus on system and software data quality models and requirements.
+    </p>
+
+  </div>
+
+</section>
+
+<section id="tab4" class="tab-content hidden max-w-7xl mx-auto px-6 py-20 bg-white rounded-lg shadow">
+  <h2 class="text-3xl font-bold mb-6">Appendix D</h2>
+  <h2 class="text-5xl font-light text-gray-800 mb-6">
+    Data sharing frameworks
+  </h2>
+
+  <hr class="border-gray-300 mb-10">
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+
+    <!-- LEFT CONTENT -->
+    <div class="md:col-span-2 space-y-6 text-gray-800 leading-relaxed text-[17px]">
+
+      <p class="text-blue-900 font-semibold">
+        AI is a “use” of data identifying appropriate frameworks and controls.
+        The ACS report
+        <span class="underline">“Frameworks and Controls for Data Sharing”</span>
+        identifies the example controls and methods to ensure that data is treated
+        appropriately throughout its lifecycle, preserving the privacy of individuals
+        while ensuring maximum possible value from data sharing practices.
+      </p>
+
+      <p>
+        Taking a simple perspective, AI is a tool that operates on data.
+        Many concerns about the appropriate use of AI relate to considerations
+        across the lifecycle of data leading to its utilisation by AI.
+        This includes the lack of controls associated with the products created
+        from the use of data by AI, as well as concerns about the future use
+        of the original data itself.
+        The range of data products created by AI is very wide, from insights
+        and alerts, to decisions or synthesised material.
+        All however can be treated in similar ways within appropriately
+        considered data sharing and use frameworks.
+      </p>
+
+      <h3 class="text-blue-900 font-semibold text-lg">
+        The ACS reports takes several simplifying lenses on
+      </h3>
+
+      <ul class="list-disc ml-8 space-y-3">
+        <li>Data lifecycle</li>
+        <li>Identification of “sensitivities” associated with the use of data and data products created by AI</li>
+        <li>Different levels of access to data and data products</li>
+        <li>Focus areas for governance</li>
+        <li>Characterising layers of control for differing levels of sensitivity, levels of personal information and domain expertise required for appropriate use.</li>
+      </ul>
+
+    </div>
+
+    <!-- RIGHT IMAGE -->
+    <div class="flex justify-center md:justify-end">
+      <img src="info.png"
+           alt="Frameworks and Controls for Data Sharing"
+           class="w-50 shadow-lg border rounded">
+    </div>
+
+  </div>
+
+</section>
+
+
+
+  <section id="tab5" class="tab-content hidden max-w-7xl mx-auto px-6 py-20 bg-white rounded-lg shadow">
+  <h2 class="text-3xl font-bold mb-6">Appendix E</h2>
+  <h2 class="text-5xl font-light text-gray-800 mb-6">
+    Risks, harms and mitigations
+  </h2>
+  <hr class="border-gray-300 mb-10">
+  <!-- LEFT CONTENT -->
+    <div class="md:col-span-2 space-y-6 text-gray-800 leading-relaxed text-[17px]">
+
+      <p class="text-blue-900 font-semibold">
+        There are many resources available to better understand risks, harms, and mitigations for AI. NSW is committed to collaborating with other states and jurisdictions to share knowledge and lessons learned, making this content available to NSW public servants. While most publicly available resources are dense in content, we encourage everyone to continue learning, applying, and sharing. Some publicly available resources that may assist in your learning and development:
+
+      </p>
+
+      <ul class="list-disc ml-8 space-y-3">
+        <li><strong> AI resources</strong> A valuable asset and resource for Australia, CSIRO has many AI-related resources. The link provided is to their published risk management tool
+</li>
+        <li><strong>OECD.AI resources.</strong> OECD.AI combines resources from across the OECD, partners and stakeholder groups to create a one-stop-shop for AI policymakers. There site includes a tools and metrics section for AI.
+
+        <li><strong>Economic Forum resources.</strong>  Containing many valuable resources for managing risk, explanation of country frameworks and news. 
+</li>
+        <li><strong>NIST AI resources.</strong> The National institute of standards and technology, U.S Department of commerce. Provides many resources for A.I including risk management, standards and measures.
+</li>
+         <li><strong> Human Technology Institute.</strong> The University of Technology Sydney provide great research papers relevant to the AI challenges facing Australia. 
+</li>
+        <li><strong>Martin Institute for public policy.</strong> JMI is an independent, non-partisan policy institute with charitable status, working to ensure that government can more effectively harness expertise and evidence for the public good. 
+</li>
+        <li><strong>Ombudsman ADM resources. </strong> The NSW ombudsman resources regarding automated decision making, referenced in the self-assessment, are highly recommended. 
+</li>
+        <P>There are too many resources to list, if you come across AI risk management resources, you think would be very useful for NSW public servants to be aware of, please let us know. 
+</P>
+
+</ul>
+
+  
+<script>
+function showTab(tabId, buttonElement) {
+
+  document.querySelectorAll('.tab-content').forEach(tab => {
+    tab.classList.add('hidden');
+  });
+
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.classList.remove('bg-blue-600', 'text-white');
+    btn.classList.add('bg-blue-100', 'text-blue-900');
+  });
+
+  document.getElementById(tabId).classList.remove('hidden');
+
+  buttonElement.classList.remove('bg-blue-100', 'text-blue-900');
+  buttonElement.classList.add('bg-blue-600', 'text-white');
+}
+</script>
+
+</body>
+</html>
+
+https://meet.google.com/wgz-trks-ypz

@@ -8,43 +8,1566 @@
 
 <body class="font-sans scroll-smooth">
 
-  <!-- ================= TOP NAVIGATION ================= -->
-    <nav class="bg-blue-900 text-white shadow-lg fixed top-0 w-full z-50">
-    <div class="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
-      <h1 class="text-xl font-semibold">NSW AI Framework</h1>
-      <div class="space-x-8 text-sm">
-        <a href="index.html" class="hover:text-yellow-300 transition">Home</a>
-        <a href="about-framework.html">Overview</a>
-        <a href="contents.html" class="hover:text-yellow-300 transition">Contents</a>
-        <a href="login.html"
-           class="bg-red-500 px-4 py-1 rounded-lg hover:bg-red-600 transition">
-          Logout
-        </a>
-      </div>
+<!-- ================= NAVIGATION ================= -->
+<nav class="bg-blue-900 text-white fixed w-full z-50 shadow-lg">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+    <h1 class="text-xl font-semibold tracking-wide">
+      NSW AI Framework
+    </h1>
+
+    <div class="space-x-8 text-sm">
+      <a href="index.html" class="hover:text-yellow-300 transition">Home</a>
+      <a href="about-framework.html">Overview</a>
+      <a href="contents.html" class="hover:text-yellow-300 transition">Contents</a>
+      <a href="resources.html">Resources</a>
+      <a href="login.html"
+         class="bg-red-500 px-4 py-1 rounded-lg hover:bg-red-600 transition">
+         Logout
+      </a>
     </div>
-  </nav>
+  </div>
+</nav>
 
-  <!-- ================= HERO SECTION ================= -->
-  <!-- ================= HERO SECTION ================= -->
-<section class="relative h-screen flex items-center justify-center text-white">
 
+<!-- ================= STICKY FLOW NAV ================= -->
+<div class="sticky top-16 z-40 bg-white shadow-sm">
+  <div class="max-w-7xl mx-auto px-6 py-2 flex items-center justify-center gap-3 overflow-x-auto whitespace-nowrap">
+
+    <a href="scope.html"
+       class="bg-gray-100 text-blue-900 px-4 py-2 text-sm rounded-full font-semibold">
+       Framework Application
+    </a>
+
+    <span class="text-gray-400">→</span>
+
+    <a href="Self-assessment readiness.html"
+       class="bg-gray-100 text-blue-900 px-4 py-2 text-sm rounded-full font-semibold">
+       Readiness
+    </a>
+
+    <span class="text-gray-400">→</span>
+
+    <a href="risk summary.html"
+       class="bg-yellow-500 text-blue-900 px-4 py-2 text-sm rounded-full font-semibold">
+       Risk Summary
+    </a>
+
+    <span class="text-gray-400">→</span>
+
+    <a href="mitigration.html"
+       class="bg-gray-100 text-blue-900 px-4 py-2 text-sm rounded-full font-semibold">
+       Mitigation & Next
+    </a>
+
+    <span class="text-gray-400">→</span>
+
+    <a href="End self-assessment stage.html"
+       class="bg-gray-100 text-blue-900 px-4 py-2 text-sm rounded-full font-semibold">
+       Stage End
+    </a>
+
+  </div>
+</div>
+
+
+<!-- ================= HERO SECTION ================= -->
+<section class="relative h-screen flex flex-col justify-center items-center text-white">
+
+  <!-- Background -->
   <div class="absolute inset-0">
     <img src="https://images.unsplash.com/photo-1518770660439-4636190af475"
          class="w-full h-full object-cover">
     <div class="absolute inset-0 bg-blue-900 bg-opacity-85"></div>
   </div>
 
-  <div class="relative z-10 text-center max-w-4xl px-6">
-    <h1 class="text-5xl font-light leading-tight">
+  <!-- Hero Content -->
+  <div class="relative z-10 text-center max-w-6xl px-6">
+    <h1 class="text-6xl font-light leading-tight mb-6">
       3. Self-assessment & <br>
       <span class="font-semibold">Risk Summary</span>
     </h1>
 
-    <p class="mt-6 text-lg text-gray-200">
-     Complete the self-assessment and review the summary.
-   </p>
+    <p class="text-lg text-gray-200 leading-relaxed">
+      Complete the self-assessment and review the summary.
+    </p>
+
   </div>
 
 </section>
 
+
+
+
+
+<section class="bg-gray-100 py-12 px-10 min-h-screen">
+
+  <div class="max-w-7xl mx-auto">
+
+    <!-- Main Heading -->
+    <h2 class="text-4xl font-light text-gray-800 mb-6">
+      Project/System information
+    </h2>
+
+    <div class="border-b border-gray-400 mb-8"></div>
+
+    <!-- Description Paragraph -->
+    <p class="text-gray-700 text-base leading-relaxed mb-6 max-w-6xl">
+      Collaborate with team members to complete the self-assessment. The time this takes will vary based on the complexity of your AI system.
+      Take your time to record responses in this document. Add pages if needed.
+      Reach out to agency AI experts or NSW AI Review Committee secretariat for assistance at
+      AISecretariat@customerservice.nsw.gov.au.
+    </p>
+
+    <!-- Table -->
+    <div class="overflow-x-auto">
+      <table class="w-full border border-gray-400 text-left text-gray-800">
+
+        <tr class="border-b border-gray-400">
+          <td class="w-1/3 bg-blue-100 font-semibold p-2 border-r border-gray-400">
+            Project name / System name
+          </td>
+          <td class="p-2">
+            Enter Project Name / System name
+          </td>
+        </tr>
+
+        <tr class="border-b border-gray-400">
+          <td class="bg-blue-100 font-semibold p-2 border-r border-gray-400">
+            How is/was the system delivered?
+          </td>
+          <td class="p-2">
+            Buy and use, Embed AI or co-train, develop AI or co-train
+          </td>
+        </tr>
+
+        <tr class="border-b border-gray-400">
+          <td class="bg-blue-100 font-semibold p-2 border-r border-gray-400">
+            What is the phase of the system?
+          </td>
+          <td class="p-2">
+            Design and develop, verify & validate through pilot, deploy and evaluate, operate/monitor/maintain, re-evaluate.
+          </td>
+        </tr>
+
+        <tr class="border-b border-gray-400">
+          <td class="bg-blue-100 font-semibold p-2 border-r border-gray-400">
+            Have you defined the responsible officers in the pre-assessment checklist?
+          </td>
+          <td class="p-2">
+            Yes / No
+          </td>
+        </tr>
+
+        <tr class="border-b border-gray-400">
+          <td class="bg-blue-100 font-semibold p-2 border-r border-gray-400">
+            List contributors to self-assessment, excluding responsible officers, with names and roles
+          </td>
+          <td class="p-2">
+            Name (role), N/A
+          </td>
+        </tr>
+
+        <tr class="border-b border-gray-400">
+          <td class="bg-blue-100 font-semibold p-2 border-r border-gray-400">
+            What is the next date/milestone that will trigger the next review?
+          </td>
+          <td class="p-2">
+            Enter date
+          </td>
+        </tr>
+
+        <tr>
+          <td class="bg-blue-100 font-semibold p-2 border-r border-gray-400 align-top">
+            System description
+          </td>
+          <td class="p-2 space-y-0">
+            <p>Please briefly describe the business goals for the system.</p>
+            <p>What is the problem / challenge / issue being addressed?</p>
+            <p>What is the system trying to achieve?</p>
+            <p>Why is an AI system the better way?</p>
+          </td>
+        </tr>
+
+      </table>
+    </div>
+
+  </div>
+</section>
+<section class="bg-gray-100 py-4 px-9">
+
+  <div class="max-w-7xl mx-auto">
+
+    <!-- Heading -->
+    <h2 class="text-4xl font-light text-gray-400 mb-4">
+      Principle 1:
+    </h2>
+
+    <h2 class="text-3xl font-semibold text-blue-600 mb-2">
+      Community Benefit
+    </h2>
+
+    <div class="border-b border-gray-400 mb-6"></div>
+
+    <!-- Blue Box -->
+    <div class="bg-gradient-to-r from-blue-600 to-blue-700 text-white">
+
+      <div class="grid grid-cols-12">
+
+        <!-- Icon -->
+        <div class="col-span-2 flex items-center justify-center p-5 border-r border-blue-400">
+          <div class="w-16 h-16 rounded-full border-4 border-white flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="9"/>
+              <circle cx="9" cy="10" r="1"/>
+              <circle cx="15" cy="10" r="1"/>
+              <path d="M8 15c1.5-1 6.5-1 8 0"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Statement -->
+        <div class="col-span-4 p-5 border-r border-blue-400">
+          <h4 class="text-xl font-semibold mb-2">
+            Principle Statement
+          </h4>
+          <p class="text-base leading-relaxed">
+            AI must prioritise community outcomes, ensuring alignment with laws,
+            minimising harm, and maximising benefit.
+          </p>
+        </div>
+
+        <!-- Description -->
+        <div class="col-span-6 p-5">
+          <h4 class="text-xl font-semibold mb-2">
+            Description
+          </h4>
+          <p class="text-base leading-relaxed mb-2">
+            Government must prioritise the well-being and interests of the community. AI must be the most appropriate solution for a service delivery or policy problem, aligning with government priorities, complying with laws and regulations, and balancing risk against community value. Careful evaluation should assess benefit against potential harm to individuals, communities, and the environment, along with the degree of reversibility and impact
+          </p>
+          
+          <p class="text-xs mt-2 opacity-80">
+            Note the principles statements may offer more detail than the current AI ethics policy.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Instructions -->
+    <div class="bg-gray-200 p-5 mt-6">
+      <h5 class="text-xl font-semibold text-blue-600 mb-3">
+        Section Instructions
+      </h5>
+
+      <p class="mb-2">
+        <strong>General Benefits & Strategic alignment:</strong>
+        This section is optional but encouraged if you haven’t completed a project/system benefits analysis.
+      </p>
+
+      <p class="mb-2">
+        <strong>General Risk Factors:</strong>
+        The initial high level risk assessment for your solution.
+
+      </p>
+
+      <p class="mb-2">
+        <strong>Questions with specific controls:</strong>
+        Identifies questions where specific action may be required based on your response. Some controls may require pausing for essential information. Complete the self-assessment and implement necessary mitigations afterward. 
+
+      </p>
+
+      <p>
+        <strong>Harms:</strong>
+        Evaluate the risk of AI potential harms. If integrating into your risk framework, use these harms as the potential consequences. 
+      </p>
+    </div>
+
+  </div>
+
+<!-- SECTION -->
+<section class="bg-gray-100 py-10 px-10">
+
+  <div class="max-w-8xl mx-auto">
+
+    <!-- Heading -->
+    <h2 class="text-4xl font-light text-gray-800 mb-4">
+      General benefits assessment (optional)
+    </h2>
+
+    <div class="border-b border-gray-400 mb-6"></div>
+
+    <p class="text-lg font-semibold mb-2">
+      What is your confidence level in achieving the following benefits?
+    </p>
+
+    <p class="text-gray-700 mb-6">
+      This section is optional but encouraged if you haven’t completed a benefits analysis.
+      Think about the potential benefits and the likelihood of these benefits being realised in practice;
+      as well as the strength of available evidence supporting your assessment.
+    </p>
+
+    <!-- TABLE -->
+    <div class="overflow-x-auto">
+      <table class="w-full border border-gray-500 text-sm border-collapse">
+
+        <thead>
+          <tr>
+            <th class="p-3 border border-gray-500 bg-gray-200 text-left w-1/3">
+              Consider the benefits associated with the AI project/system ...
+            </th>
+            <th class="p-3 border border-gray-500 bg-gray-700 text-white text-center">Very low or N/A</th>
+            <th class="p-3 border border-gray-500 bg-green-600 text-white text-center">Low</th>
+            <th class="p-3 border border-gray-500 bg-yellow-500 text-white text-center">Mid-range</th>
+            <th class="p-3 border border-gray-500 bg-orange-500 text-white text-center">High</th>
+            <th class="p-3 border border-gray-500 bg-red-600 text-white text-center">Very high</th>
+          </tr>
+        </thead>
+
+        <tbody>
+
+          <!-- ROW 1 -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+              Delivering a better-quality existing service or outcome (for example, accuracy or client satisfaction)
+            </td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row1" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row1" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row1" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row1" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row1" class="custom-radio"></td>
+          </tr>
+
+          <!-- ROW 2 -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+              Reducing processing or delivery times
+            </td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row2" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row2" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row2" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row2" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row2" class="custom-radio"></td>
+          </tr>
+
+          <!-- ROW 3 -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+              Generating financial efficiencies or savings
+            </td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row3" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row3" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row3" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row3" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row3" class="custom-radio"></td>
+          </tr>
+
+          <!-- ROW 4 -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+              Providing an AI capability that could be used or adapted by other agencies
+            </td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row4" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row4" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row4" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row4" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row4" class="custom-radio"></td>
+          </tr>
+
+          <!-- ROW 5 -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+              Delivering a new service or outcome (particularly if it cannot be done without using AI)
+            </td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row5" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row5" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row5" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row5" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row5" class="custom-radio"></td>
+          </tr>
+
+          <!-- ROW 6 -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+              Enabling future innovations to existing services, or new services or outcomes
+            </td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row6" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row6" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row6" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row6" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row6" class="custom-radio"></td>
+          </tr>
+
+          <!-- COMMENTS ROW -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+              Comments
+            </td>
+            <td colspan="5" class="border border-gray-500 p-3">
+              <textarea class="w-full border border-gray-300 p-2 text-sm rounded" rows="3"></textarea>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</section>
+
+<!-- CUSTOM RADIO STYLE -->
+<style>
+  .custom-radio {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #2563eb;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .custom-radio:checked {
+    background-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+  }
+</style>
+
+<!-- STRATEGIC ALIGNMENT SECTION -->
+<section class="bg-gray-100 py-2 px-10">
+  <div class="max-w-7xl mx-auto">
+
+    <!-- Heading -->
+    <h2 class="text-4xl font-light text-gray-800 mb-2">
+      Strategic alignment (optional)
+    </h2>
+
+    <p class="text-gray-500 text-lg mb-6">
+      Questions with specific controls
+    </p>
+
+    <div class="border-b border-gray-400 mb-8"></div>
+
+    <p class="text-blue-900 font-semibold mb-6">
+      This question is optional but encouraged if you haven’t completed a benefits analysis
+    </p>
+
+    <!-- TABLE -->
+    <div class="overflow-x-auto">
+      <table class="w-full border border-gray-500 text-sm border-collapse">
+
+        <!-- Header Row -->
+        <tr>
+          <td class="p-5 border border-gray-500 bg-blue-50 font-medium w-1/3 align-top">
+            <strong>
+              1. Will the AI system improve on existing approaches to deliver the outcomes described in:
+            </strong>
+
+            <ul class="list-disc ml-6 mt-4 space-y-1">
+              <li>the Human Services Outcomes Framework</li>
+              <li>the Smart Places Outcomes Framework</li>
+              <li>NSW Treasury Budget Outcomes</li>
+              <li>Your Agency strategic Plans</li>
+              <li>another relevant NSW Outcomes Framework?</li>
+            </ul>
+          </td>
+
+          <!-- YES -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">Yes:</p>
+            <p class="text-sm mt-2">
+              List which strategic outcomes the systems improve.
+            </p>
+            <div class="mt-6">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- PARTIALLY -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">Partially:</p>
+            <p class="text-sm mt-2">
+              After your pilot, you must conduct a formal benefits review before scaling.
+            </p>
+            <div class="mt-6">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- NOT SURE -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">Not sure:</p>
+            <p class="text-sm mt-2">
+              Pause the project and prepare a Benefits Realisation Management Plan.
+            </p>
+            <div class="mt-6">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- NO -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">No:</p>
+            <p class="text-sm mt-2">
+              Do not proceed any further. Discuss this with the Responsible Officers.
+            </p>
+            <div class="mt-6">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+        </tr>
+
+        <!-- RESPONSE ROW -->
+        <tr>
+          <td class="p-5 border border-gray-500 bg-blue-50 font-medium">
+            Response – You must explain your answer.
+          </td>
+          <td colspan="4" class="border border-gray-500 p-2">
+            <textarea class="w-full border border-gray-300 rounded p-3 h-28 text-sm"></textarea>
+          </td>
+        </tr>
+
+      </table>
+    </div>
+
+    <!-- BENEFITS INFO BOX -->
+    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 mt-10">
+      <p class="text-sm">
+        <strong>Benefits:</strong> All AI projects should have a benefits register that is kept up to date throughout the project.
+        The benefits register should be maintained by the Responsible Officers.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CUSTOM RADIO STYLE -->
+<style>
+  .custom-radio {
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 2px solid #2563eb;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .custom-radio:checked {
+    background-color: #2563eb;
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.2);
+  }
+</style>
+
+<!-- SECTION -->
+<section class="bg-gray-100 py-10 px-10">
+
+  <div class="max-w-8xl mx-auto">
+
+    <!-- Heading -->
+    <h2 class="text-4xl font-light text-gray-800 mb-4">
+      General risk factor assessment
+    </h2>
+
+    <div class="border-b border-gray-400 mb-6"></div>
+
+    <p class="text-lg font-semibold mb-2">
+      What is your initial risk assessment of this solution?
+
+    </p>
+
+    <p class="text-gray-700 mb-6">
+      Consider the likelihood and potential consequences (harms) if the following risk were to eventuate. Factors to consider include familiarity of the solution and use case, reversibility, data sensitivity, and level of human intervention/oversight. 
+ </p>
+
+    <!-- TABLE -->
+    <div class="overflow-x-auto">
+      <table class="w-full border border-gray-500 text-sm border-collapse">
+
+        <thead>
+          <tr>
+            <th class="p-3 border border-gray-500 bg-gray-200 text-left w-1/3">
+              Consider the risks associated with …
+            </th>
+            <th class="p-3 border border-gray-500 bg-gray-700 text-white text-center">Very low or N/A</th>
+            <th class="p-3 border border-gray-500 bg-green-600 text-white text-center">Low</th>
+            <th class="p-3 border border-gray-500 bg-yellow-500 text-white text-center">Mid-range</th>
+            <th class="p-3 border border-gray-500 bg-orange-500 text-white text-center">High</th>
+            <th class="p-3 border border-gray-500 bg-red-600 text-white text-center">Very high</th>
+          </tr>
+        </thead>
+
+        <tbody>
+
+          <!-- ROW 1 -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+              Whether this AI system is delivering a new or existing service
+
+            </td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row1" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row1" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row1" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row1" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row1" class="custom-radio"></td>
+          </tr>
+
+          <!-- ROW 2 -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+              The potential to cause discrimination from unintended bias
+
+            </td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row2" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row2" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row2" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row2" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row2" class="custom-radio"></td>
+          </tr>
+
+          <!-- ROW 3 -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+              Whether the AI system is a single point of failure for your service or policy
+
+            </td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row3" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row3" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row3" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row3" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row3" class="custom-radio"></td>
+          </tr>
+
+          <!-- ROW 4 -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+              If there is sufficient experienced human oversight of the AI system
+            </td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row4" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row4" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row4" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row4" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row4" class="custom-radio"></td>
+          </tr>
+
+          <!-- ROW 5 -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+             Over-reliance on the AI system or ignoring the system due to High rates of false alert
+
+            </td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row5" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row5" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row5" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row5" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row5" class="custom-radio"></td>
+          </tr>
+
+          <!-- ROW 6 -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+              Whether the linkage between operating the AI system and the policy outcome is clear
+
+            </td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row6" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row6" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row6" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row6" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row6" class="custom-radio"></td>
+          </tr>
+          <!-- ROW 7 -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+              The system’s explainability and transparency regarding generated content and decisions
+
+            </td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row7" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row7" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row7" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row7" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row7" class="custom-radio"></td>
+          </tr>
+
+          <!-- COMMENTS ROW -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+              Comments
+            </td>
+            <td colspan="5" class="border border-gray-500 p-3">
+              <textarea class="w-full border border-gray-300 p-2 text-sm rounded" rows="3"></textarea>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- Non-AI system consideration -->
+<section class="bg-gray-100 py-2 px-10">
+  <div class="max-w-7xl mx-auto">
+
+    <!-- Heading -->
+    <h2 class="text-4xl font-light text-gray-800 mb-2">
+      Non-AI system consideration
+    </h2>
+
+    <p class="text-gray-500 text-lg mb-6">
+      Questions with specific controls
+    </p>
+
+    <div class="border-b border-gray-400 mb-8"></div>
+
+    <!-- TABLE -->
+    <div class="overflow-x-auto">
+      <table class="w-full border border-gray-500 text-sm border-collapse">
+
+        <!-- Header Row -->
+        <tr>
+          <td class="p-5 border border-gray-500 bg-blue-50 font-medium w-1/3 align-top">
+            <strong>
+              2. Were other, non-AI systems considered?</strong>
+
+            
+          </td>
+
+          <!-- YES -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">Yes:</p>
+            
+            <div class="mt-6">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- PARTIALLY -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">Informally:</p>
+            <p class="text-sm mt-2">
+              After your pilot, you must conduct a formal benefits review before scaling. </p>
+            <div class="mt-6">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- NOT SURE -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">No:</p>
+            <p class="text-sm mt-2">
+             Do not proceed any further. Review with the responsible officers on how to resolve. </p>
+            <div class="mt-6">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- NO -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">N/A</p>
+            
+            <div class="mt-6">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+        </tr>
+
+        <!-- RESPONSE ROW -->
+        <tr>
+          <td class="p-4 border border-gray-500 bg-blue-50 font-medium">
+            Response – You must explain your answer.
+
+          </td>
+          <td colspan="4" class="border border-gray-500 p-2">
+            <textarea class="w-full border border-gray-300 rounded p-3 h-28 text-sm"></textarea>
+          </td>
+        </tr>
+
+      </table>
+    </div>
+
+    <!-- BENEFITS INFO BOX -->
+    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-2 mt-8">
+      <p class="text-sm">
+        <strong>Benefits:</strong> All AI projects should have a benefits register that is kept up to date throughout the project. The benefits register should be maintained by the Responsible Officers. 
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CUSTOM RADIO STYLE -->
+<style>
+  .custom-radio {
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 2px solid #2563eb;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .custom-radio:checked {
+    background-color: #2563eb;
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.2);
+  }
+</style>
+
+
+
+
+
+
+
+<!-- Legal framework alignment -->
+<section class="bg-gray-100 py-6 px-8">
+  <div class="max-w-7xl mx-auto">
+
+    <h2 class="text-4xl font-light text-gray-800 mb-2">
+      Legal framework alignment
+    </h2>
+
+    <p class="text-gray-500 text-lg mb-4">
+      Questions with specific controls
+    </p>
+
+    <div class="border-b border-gray-400 mb-6"></div>
+
+    <div class="overflow-x-auto">
+      <table class="w-full border border-gray-500 text-sm border-collapse">
+
+        <tr>
+          <td class="p-3 border border-gray-500 bg-blue-50 font-medium w-1/3 align-top">
+            <strong>
+              3. Does this system and the use of data align with relevant legislation?
+You must make sure your data use aligns with:
+            </strong>
+
+            <ul class="list-disc ml-6 mt-2 space-y-1">
+              <li>Privacy and Personal Information Protection Act 1997 (NSW) (PPIPA)</li>
+              <li>NSW Anti-Discrimination Act 1977</li>
+              <li>Government Information (Public Access) Act 2009</li>
+              <li>Your Agency strategic Plans</li>
+              <li>State Records Act 1998</li>
+            </ul>
+
+            <strong>
+              Other relevant NSW or Commonwealth Acts including:
+            </strong>
+
+            <ul class="list-disc ml-6 mt-2 space-y-1">
+              <li>Public Interest Directions made under PIPPA (exemptions)</li>
+              <li>Health Records and Information Privacy Act 2002 (NSW) (HRIPA)</li>
+              <li>Health Public Interest Directions made under HRIPA (exemptions)</li>
+              <li>Public Health Act 2010</li>
+              <li>Relevant Acts for your Agency such as the Transport Administration Act 1988 (NSW) or the Police Act 1990 (NSW)</li>
+            </ul>
+          </td>
+
+          <!-- YES -->
+          <td class="p-2 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">Yes:</p>
+            <p class="text-sm mt-1">
+              If you have confirmed any other relevant acts, please list these in your response.
+            </p>
+            <div class="mt-3">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- UNCLEAR -->
+          <td class="p-2 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">Unclear:</p>
+            <p class="text-sm mt-1">
+              Pause the project. Seek advice from an appropriate NSW legal source or the NSW Privacy Commissioner. You may need to redesign your project and or system
+            </p>
+            <div class="mt-3">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- NO -->
+          <td class="p-2 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">No:</p>
+            <p class="text-sm mt-1">
+              Do not proceed any further unless you receive clear legal advice that allows you to proceed. Consider redesigning your project and or system.
+            </p>
+            <div class="mt-3">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+        </tr>
+
+        <!-- RESPONSE ROW -->
+        <tr>
+          <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+            Response – You must explain your answer.
+          </td>
+          <td colspan="3" class="border border-gray-500 p-2">
+            <textarea class="w-full border border-gray-300 rounded p-2 h-20 text-sm"></textarea>
+          </td>
+        </tr>
+
+      </table>
+    </div>
+
+    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-2 mt-6">
+      <p class="text-sm">
+        <strong>Benefits:</strong>
+        You must always comply with privacy and information access laws, including when you are developing and using AI Systems.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .custom-radio {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid #2563eb;
+    cursor: pointer;
+  }
+
+  .custom-radio:checked {
+    background-color: #2563eb;
+  }
+</style>
+
+
+
+<!-- Potential harms – negative consequences -->
+
+<!-- SECTION -->
+<section class="bg-gray-100 py-10 px-10">
+
+  <div class="max-w-8xl mx-auto">
+
+    <!-- Heading -->
+    <h2 class="text-4xl font-light text-gray-800 mb-4">
+      Potential harms – negative consequences
+    </h2>
+
+    <div class="border-b border-gray-400 mb-6"></div>
+
+    <p class="text-lg font-semibold mb-2">
+      This prompts early consideration to potential harms, revise after completing the self-assessment.
+
+
+    </p>
+
+    <p class="text-gray-700 mb-6">
+      Think about how likely and serious a risk could be if it happens. Factors to think about include how familiar the solution and use case are, whether it can be reversed, how sensitive the data is, and how much human oversight is needed.
+</p>
+
+    <!-- TABLE -->
+    <div class="overflow-x-auto">
+      <table class="w-full border border-gray-500 text-sm border-collapse">
+
+        <thead>
+          <tr>
+            <th class="p-3 border border-gray-500 bg-gray-200 text-left w-1/3">
+              Consider the risks of …
+            </th>
+            <th class="p-3 border border-gray-500 bg-gray-700 text-white text-center">Very low or N/A</th>
+            <th class="p-3 border border-gray-500 bg-green-600 text-white text-center">Low</th>
+            <th class="p-3 border border-gray-500 bg-yellow-500 text-white text-center">Mid-range</th>
+            <th class="p-3 border border-gray-500 bg-orange-500 text-white text-center">High</th>
+            <th class="p-3 border border-gray-500 bg-red-600 text-white text-center">Very high</th>
+          </tr>
+        </thead>
+
+        <tbody>
+
+          <!-- ROW 1 -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+              Physical harms
+
+
+            </td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row1" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row1" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row1" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row1" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row1" class="custom-radio"></td>
+          </tr>
+
+          <!-- ROW 2 -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+              Psychological harms
+
+
+            </td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row2" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row2" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row2" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row2" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row2" class="custom-radio"></td>
+          </tr>
+
+          <!-- ROW 3 -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+             Environmental harms or harms to the broader community
+
+            </td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row3" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row3" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row3" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row3" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row3" class="custom-radio"></td>
+          </tr>
+
+          <!-- ROW 4 -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+             Unauthorised use of health or sensitive personal information (SIP)
+</td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row4" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row4" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row4" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row4" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row4" class="custom-radio"></td>
+          </tr>
+
+          <!-- ROW 5 -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+             Impact on right, privilege or entitlement
+
+            </td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row5" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row5" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row5" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row5" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row5" class="custom-radio"></td>
+          </tr>
+
+          <!-- ROW 6 -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+              Unintended identification or misidentification of an individual
+
+            </td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row6" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row6" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row6" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row6" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row6" class="custom-radio"></td>
+          </tr>
+          <!-- ROW 7 -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+              Misapplication of a fine or penalty
+
+            </td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row7" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row7" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row7" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row7" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row7" class="custom-radio"></td>
+          </tr>
+                   <!-- ROW 8 -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+              Other financial or commercial impact
+
+
+
+            </td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row8" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row8" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row8" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row8" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row8" class="custom-radio"></td>
+          </tr>
+
+          <!-- ROW 9 -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+              Incorrect advice or guidance
+
+
+
+            </td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row9" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row9" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row9" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row9" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row9" class="custom-radio"></td>
+          </tr>
+
+          <!-- ROW 10 -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+             Inconvenience or delay
+
+
+            </td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row10" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row10" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row10" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row10" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row10" class="custom-radio"></td>
+          </tr>
+
+          <!-- ROW 11 -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+             Erosion of trust
+
+</td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row11" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row11" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row11" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row11" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row11" class="custom-radio"></td>
+          </tr>
+
+          <!-- ROW 12 -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+             Ethical implications
+
+
+            </td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row12" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row12" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row12" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row12" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row12" class="custom-radio"></td>
+          </tr>
+
+          <!-- ROW 13 -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+              Economic disruption / impact. 
+
+
+            </td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row13" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row13" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row13" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row13" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row13" class="custom-radio"></td>
+          </tr>
+          <!-- ROW 14 -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+              Social equality
+
+
+            </td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row14" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row14" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row14" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row14" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row14" class="custom-radio"></td>
+          </tr>
+          <!-- ROW 15 -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+              Other harms
+
+
+            </td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row15" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row15" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row15" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row15" class="custom-radio"></td>
+            <td class="text-center border border-gray-500"><input type="radio" name="row15" class="custom-radio"></td>
+          </tr>
+          <!-- COMMENTS ROW -->
+          <tr>
+            <td class="p-3 border border-gray-500 bg-blue-50 font-medium">
+              Comments, ensure to include details of other harms if you selected this option. 
+
+            </td>
+            <td colspan="5" class="border border-gray-500 p-3">
+              <textarea class="w-full border border-gray-300 p-2 text-sm rounded" rows="3"></textarea>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+<!-- Reversible harms -->
+<section class="bg-gray-100 py-2 px-10">
+  <div class="max-w-7xl mx-auto">
+
+    <!-- Heading -->
+    <h2 class="text-4xl font-light text-gray-800 mb-2">
+      Reversible harms
+    </h2>
+
+    <p class="text-gray-500 text-lg mb-6">
+     Questions with specific controls
+
+    </p>
+
+    <div class="border-b border-gray-400 mb-8"></div>
+
+    
+    <!-- TABLE -->
+    <div class="overflow-x-auto">
+      <table class="w-full border border-gray-500 text-sm border-collapse">
+
+        <!-- Header Row -->
+        <tr>
+          <td class="p-5 border border-gray-500 bg-blue-50 font-medium w-1/3 align-top">
+            <strong>
+              4. Could the AI system cause harms that are reversible?
+</strong>
+
+
+          </td>
+
+          <!-- YES -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">no:</p>
+            
+            <div class="mt-6">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- PARTIALLY -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">Yes: and mid-range or higher risk:</p>
+            <p class="text-sm mt-2">
+               do not proceed until you receive legal advice. If you have legal approval: discuss this  with all relevant stakeholders, you may need ethics approval, consider a Human Rights Impact Assessment.</p>
+            <div class="mt-6">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- NOT SURE -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">Yes: and low or very low risk:</p>
+            <p class="text-sm mt-2">
+              Explain below
+            </p>
+            <div class="mt-6">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- NO -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">Unclear:</p>
+            <p class="text-sm mt-2">
+              Pause the project and review with the responsible officers on how to resolve. </p>
+            <div class="mt-6">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+        </tr>
+
+        <!-- RESPONSE ROW -->
+        <tr>
+          <td class="p-5 border border-gray-500 bg-blue-50 font-medium">
+            Response – You must explain your answer
+
+          </td>
+          <td colspan="4" class="border border-gray-500 p-2">
+            <textarea class="w-full border border-gray-300 rounded p-3 h-28 text-sm"></textarea>
+          </td>
+        </tr>
+
+      </table>
+    </div>
+
+    <!-- BENEFITS INFO BOX -->
+    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-3 mt-8">
+      <p class="text-sm">
+        <strong>Reversible Vs Irreversible harms:</strong> Irreversible harm refers to a situation where it's impossible to revert to a previous condition before the harm occurred. For example, if an AI system makes an incorrect decision to deny somebody a pension without an option to have that overturned. You should ensure the ability to overturn outcomes if harm is caused or if the AI system makes incorrect decisions.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CUSTOM RADIO STYLE -->
+<style>
+  .custom-radio {
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 2px solid #2563eb;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .custom-radio:checked {
+    background-color: #2563eb;
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.2);
+  }
+</style>
+
+
+
+
+
+
+
+
+<!-- Significant harms -->
+<section class="bg-gray-100 py-6 px-10">
+  <div class="max-w-7xl mx-auto">
+
+    <!-- Heading -->
+    <h2 class="text-4xl font-light text-gray-800 mb-2">
+      Significant harms
+    </h2>
+
+    <p class="text-gray-500 text-lg mb-6">
+     Questions with specific controls
+
+    </p>
+
+    <div class="border-b border-gray-400 mb-8"></div>
+
+    
+    <!-- TABLE -->
+    <div class="overflow-x-auto">
+      <table class="w-full border border-gray-500 text-sm border-collapse">
+
+        <!-- Header Row -->
+        <tr>
+          <td class="p-5 border border-gray-500 bg-blue-50 font-medium w-1/3 align-top">
+            <strong>
+              5. Could the AI system cause significant or irreversible harms?
+
+</strong>
+ <p class="text-sm mt-2">
+               Example: Autonomous AI systems on critical infrastructure (i.e. energy)<br>
+
+For more information on when a Human Rights Impact Assessment is required. see https://humanrights.gov.au/
+<div class="mt-6">
+
+
+          </td>
+
+          <!-- YES -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">no:</p>
+            
+            <div class="mt-6">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- PARTIALLY -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">Yes, but it’s better than existing systems:  </p>
+            <p class="text-sm mt-2">
+               You must seek approval from an ethics committee. You must have clear legal advice that allows you to proceed. Consult with all relevant stakeholders. Consider a Human Rights Impact Assessment.<div class="mt-6">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- NOT SURE -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">Yes:</p>
+            <p class="text-sm mt-2">
+              Do not proceed until you receive clear legal advice. If you have legal approval: discuss this with all relevant stakeholders, seek approval from an ethics committee, consider a Human Rights Impact Assessment.
+            </p>
+            <div class="mt-6">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- NO -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">Unclear:</p>
+            <p class="text-sm mt-2">
+              Pause the project and review with the responsible officers on how to resolve. <div class="mt-6">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+        </tr>
+
+        <!-- RESPONSE ROW -->
+        <tr>
+          <td class="p-5 border border-gray-500 bg-blue-50 font-medium">
+            Response – You must explain your answer
+
+          </td>
+          <td colspan="4" class="border border-gray-500 p-2">
+            <textarea class="w-full border border-gray-300 rounded p-3 h-28 text-sm"></textarea>
+          </td>
+        </tr>
+
+      </table>
+    </div>
+
+    <!-- BENEFITS INFO BOX -->
+    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-3 mt-8">
+      <p class="text-sm">
+        <strong>Monitoring for possible harms:</strong>  You must monitor your AI system closely for harms that it may cause. This includes monitoring outputs and testing results to ensure there are no unintended consequences. You should be able to quantify unintended consequences, secondary harms or benefits, and long-term impacts to the community, even during testing and pilot phases. Testing can still lead to harm if the system is making consequential decisions. You must consider and account for this possibility even if human testers are willing volunteers. Changing the context or environment in which the AI system is used can lead to unintended consequences. Planned changes in how the AI is used should be carefully considered and monitoring undertaken.
+</div>
+
+  </div>
+</section>
+
+<!-- CUSTOM RADIO STYLE -->
+<style>
+  .custom-radio {
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 2px solid #2563eb;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .custom-radio:checked {
+    background-color: #2563eb;
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.2);
+  }
+</style>
+
+
+
+
+
+
+
+
+
+
+<!-- Possible secondary or cumulative harms -->
+<section class="bg-gray-100 py-6 px-10">
+  <div class="max-w-7xl mx-auto">
+
+    <!-- Heading -->
+    <h2 class="text-4xl font-light text-gray-800 mb-2">
+      Possible secondary or cumulative harms
+    </h2>
+
+    <p class="text-gray-500 text-lg mb-6">
+     Questions with specific controls
+
+    </p>
+
+    <div class="border-b border-gray-400 mb-8"></div>
+
+    
+    <!-- TABLE -->
+    <div class="overflow-x-auto">
+      <table class="w-full border border-gray-500 text-sm border-collapse">
+
+        <!-- Header Row -->
+        <tr>
+          <td class="p-5 border border-gray-500 bg-blue-50 font-medium w-1/3 align-top">
+            <strong>
+             6. Could the AI System result in secondary harms, or result in a cumulative harm from repeated application of the AI System? 
+
+</strong>
+ <p class="text-sm mt-2">
+               EExample of a cumulative harm is a video system initially collecting and analysing data for security purposes, but over time, as more data is gathered and analysed, individual privacy could be at risk.
+<div class="mt-6">
+
+
+          </td>
+
+          <!-- YES -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">no:</p>
+            
+            <div class="mt-6">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- PARTIALLY -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">*Yes: and mid-range or higher risk:  </p>
+            <p class="text-sm mt-2">
+               do not proceed until you receive legal advice. If you have legal approval: discuss this  with all relevant stakeholders, you may need ethics approval, consider a Human Rights Impact Assessment.
+ <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- NOT SURE -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">Yes: and low or very low risk:</p>
+            <p class="text-sm mt-2">
+              explain below.
+</p>
+            <div class="mt-6">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- NO -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">Unclear:</p>
+            <p class="text-sm mt-2">
+              Pause the project and review with the responsible officers on how to resolve. 
+<input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+        </tr>
+
+        <!-- RESPONSE ROW -->
+        <tr>
+          <td class="p-5 border border-gray-500 bg-blue-50 font-medium">
+            Response – You must explain your answer
+
+          </td>
+          <td colspan="4" class="border border-gray-500 p-2">
+            <textarea class="w-full border border-gray-300 rounded p-3 h-28 text-sm"></textarea>
+          </td>
+        </tr>
+
+      </table>
+    </div>
+
+    <!-- BENEFITS INFO BOX -->
+    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-3 mt-8">
+      <p class="text-sm">
+        <strong>Secondary harms:</strong>  Sometimes harms are felt by people who are not direct recipients of the product of service. We refer to these as secondary harms. Secondary harms include things like a loss of trust. You need to think deeply about everyone who might be impacted, well beyond the obvious end user.
+</div>
+
+  </div>
+</section>
+
+<!-- CUSTOM RADIO STYLE -->
+<style>
+  .custom-radio {
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 2px solid #2563eb;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .custom-radio:checked {
+    background-color: #2563eb;
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.2);
+  }
+</style>
 
