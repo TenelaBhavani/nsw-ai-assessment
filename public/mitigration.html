@@ -93,3 +93,892 @@
   </div>
 
 </section>
+
+<!-- ================= PAGE SECTION ================= -->
+<section class="bg-gray-100 py-14 px-10">
+
+  <div class="max-w-7xl mx-auto">
+
+     <h2 class="text-4xl font-light text-gray-800 mb-6">
+      Mitigation and risk plan summary
+    </h2>
+
+    <div class="border-b border-gray-400 mb-8"></div>
+    <!-- Main Layout Grid -->
+    <div class="grid grid-cols-12 gap-4">
+
+      <!-- Left Instruction Box -->
+      <div class="col-span-10 md:col-span-3">
+        <div class="h-full bg-blue-100 border border-gray-300 p-6 text-sm text-blue-900 leading-relaxed rounded-lg">
+          <p class="font-semibold mb-4">
+            25. Review your self-assessment, list here the mitigations to be applied and the high-level steps you will take in ensuring these are included in your overall risk management plan.
+          </p>
+          <p>
+            Record your decision, the self-assessment and any supporting information in your Records System.
+          </p>
+        </div>
+      </div>
+
+<!-- Middle Writing Area -->
+<div class="col-span-10 md:col-span-7">
+  <div class="bg-white border border-gray-300 p-7 rounded-lg shadow-sm">
+    <textarea
+      class="w-full h-32 focus:outline-none resize-none text-gray-700 text-sm"
+      placeholder="Enter mitigation plan and next steps here..."></textarea>
+  </div>
+</div>
+
+
+      <!-- Right Procurement Note -->
+      <div class="col-span-12 md:col-span-2">
+        <div class="h-full bg-yellow-100 border border-gray-300 p-5 text-sm text-gray-800 rounded-lg">
+          If you're <strong>procuring</strong> any part of the solution, complete the procurement questions prior to finalising this section.
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Monitoring Section -->
+    <div class="bg-yellow-50 border-l-4 border-yellow-400 mt-5 p-3 text-sm text-gray-800 leading-relaxed rounded-lg shadow-sm">
+
+      <p class="mb-0">
+        <span class="font-semibold text-yellow-700">Monitoring ongoing performance:</span>
+        For elevated-risk applications of AI, continuous performance monitoring is crucial. All AI systems should undergo ongoing evaluation, even those considered low-risk, as they could rapidly deviate from normal parameters of operation. Before scaling beyond the pilot phase, it's essential to identify mechanisms for monitoring and calibrating system performance. These mechanisms may include red teaming, conformity assessments, reinforcement from human feedback, monitoring for model drift, and metrics-based performance testing. 
+
+      </p>
+
+      <p class="mb-0">
+        <span class="font-semibold text-yellow-700">Monitoring ongoing risks:</span> Operational AI systems which progress with High and Very High risks must plan for regular external independent risk audits to cover among other things:
+
+      </p>
+
+      <ul class="list-disc ml-6">
+        <li>the examination and documentation of the effectiveness of risk responses in dealing with identified risk and their root causes, 
+</li>
+        <li>the effectiveness of the risk management process.
+</li>
+      </ul>
+      <p>For a more tools on considerations of risk, see “Useful Resources” (Appendix 2) and “Exploring risks, harms and mitigations” (Appendix 5).
+</p>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- Residual risk action -->
+<section class="bg-gray-100 py-0 px-10">
+
+  <div class="max-w-7xl mx-auto">
+
+    <h2 class="text-4xl font-light text-gray-800 mb-6">
+      Residual risk action
+    </h2>
+
+    <div class="border-b border-gray-400 mb-8"></div>
+
+    <!-- TABLE -->
+    <div class="overflow-x-auto">
+      <table class="w-full border border-gray-500 text-sm border-collapse">
+
+        <tr>
+
+          <!-- LEFT INFO -->
+          <td class="p-5 border border-gray-500 bg-blue-50 w-1/4 align-top">
+            <strong>
+              26. Is your project / system an elevated risk?
+            </strong>
+
+            <p class="mt-3 text-sm">
+              If, after considering all mitigations provided within the self-assessment, Mid-range or higher residual risk(s) persist, this constitutes an Elevated risk use of AI. 
+
+Use of a non-transparent, non-auditable algorithms or training data will likely be an elevated risk use of AI. They require protections limiting scope of use, or additional risk mitigations. 
+
+            </p>
+          </td>
+
+          <!-- OPTION 1 -->
+          <td class="p-4 border border-gray-500 align-top">
+            <p class="font-semibold text-blue-600">
+              *Yes, I have Mid-Range residual risk.
+            </p>
+            <p class="mt-2 text-sm">
+              Don’t proceed without legal advice. If the project proceeds, pilot first with ongoing controls and monitoring. A formal review should be conducted after pilot phase. Conduct an independent risk audit, and your self-assessment needs to be reviewed by the NSW AI Review Committee
+
+            </p>
+
+            <div class="mt-10 text-center">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- OPTION 2 -->
+          <td class="p-4 border border-gray-500 align-top">
+            <p class="font-semibold text-blue-600">
+              *Yes: mid-range or higher risk
+            </p>
+            <p class="mt-2 text-sm">
+              Don’t proceed without legal advice. If the project proceeds, pilot first with ongoing controls and monitoring, consider a review by the NSW AI Review committee and conduct an independent risk audit.
+
+            </p>
+
+            <div class="mt-10 text-center">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- OPTION 3 -->
+          <td class="p-4 border border-gray-500 align-top">
+            <p class="font-semibold text-blue-600">
+              No, I have low residual risk.
+            </p>
+            <p class="mt-2 text-sm">
+              Proceed with appropriate controls and monitoring. Consider doing a pilot if there is any potential for the risk profile to increase.
+
+            </p>
+
+            <div class="mt-10 text-center">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- OPTION 4 -->
+          <td class="p-4 border border-gray-500 align-top">
+            <p class="font-semibold text-blue-600">
+              No, I have very low or N/A residual risk.
+            </p>
+            <p class="mt-2 text-sm">
+              Proceed with appropriate controls and monitoring.
+            </p>
+
+            <div class="mt-14 text-center">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+        </tr>
+
+      </table>
+    </div>
+
+    <!-- BENEFITS INFO BOX (Outside Table) -->
+    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 mt-8 rounded">
+      <p class="text-sm">
+        <strong>The importance of documenting your assessment:</strong>
+         You must make sure your answers, explanations and risk mitigating controls are recorded in your Record Management system. For Elevated risk uses of AI which include Mid-Range risks or higher, the public benefits must be clear and documented before proceeding.
+      </p>
+    </div>
+
+  </div>
+</section>
+<style>
+  .custom-radio {
+    appearance: none;
+    width: 22px;          /* Increased size */
+    height: 22px;         /* Increased size */
+    border-radius: 50%;
+    border: 2px solid #2563eb;  /* Slightly thicker border */
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .custom-radio:checked {
+    background-color: #2563eb;
+    box-shadow: 0 0 0 5px rgba(37, 99, 235, 0.2);
+  }
+</style>
+
+
+
+
+
+
+<!-- Procurement considerations -->
+<section class="bg-gray-100 py-6 px-10">
+  <div class="max-w-7xl mx-auto">
+
+    <!-- Heading -->
+    <h2 class="text-4xl font-light text-gray-800 mb-2">
+      Procurement considerations
+    </h2>
+
+    <p class="text-gray-500 text-lg mb-6">
+     Risk treatment in requirements & contract terms
+
+
+    </p>
+
+    <div class="border-b border-gray-400 mb-8"></div>
+
+    
+    <!-- TABLE -->
+    <div class="overflow-x-auto">
+      <table class="w-full border border-gray-500 text-sm border-collapse">
+
+        <!-- Header Row -->
+        <tr>
+          <td class="p-5 border border-gray-500 bg-blue-50 font-medium w-1/3 align-top">
+            <strong>
+              27. When considering risks, did you identify treatments for these risks that were system requirements or contractual controls?
+
+
+</strong>
+ <p class="text-sm mt-2">
+               In terms of a relative scope for control of potential risks: <br>Buy AI and use has high supplier control, low agency control, Embed AI and/or co-train has shared supplier and agency control,Develop AI and/or train has no supplier control, full agency control.
+<br>
+
+Ensure that supplier services are considered for providing skills development and knowledge transfer to help fulfill your responsibilities. 
+
+<div class="mt-0">
+
+
+          </td>
+
+          <!-- PARTIALLY -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">Yes:  </p>
+            <p class="text-sm mt-2">
+              List the types of treatments that will be applied and categorise them against procurement controls mentioned below.<div class="mt-10 text-center">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- NOT SURE -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">No:</p>
+            <p class="text-sm mt-2">
+              Proceed to next step.
+            </p>
+           <div class="mt-14 text-center">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- NO -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">Unclear:</p>
+            <p class="text-sm mt-2">
+              Pause the project and review with the responsible officers and your risk team.  
+              
+            <div class="mt-14 text-center">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+        </tr>
+
+        <!-- RESPONSE ROW -->
+        <tr>
+          <td class="p-5 border border-gray-500 bg-blue-50 font-medium">
+            Response – You must explain your answer
+
+          </td>
+          <td colspan="4" class="border border-gray-500 p-2">
+            <textarea class="w-full border border-gray-300 rounded p-3 h-28 text-sm"></textarea>
+          </td>
+        </tr>
+
+      </table>
+    </div>
+
+    <!-- BENEFITS INFO BOX -->
+    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-3 mt-8">
+      <p class="text-sm">
+        <strong>Translating requirements into controls: </strong>  Below are examples of translating the AI risk considerations from this framework into requirements and contractual controls<br>
+<strong>Data Governance:</strong> Procurements involving AI systems should establish explicit expectations and implement controls to assure high-quality data is maintained through security-by-design and privacy-by-design principles.<br>
+<strong>Monitoring ongoing performance:</strong> Regular performance evaluations and risk assessments for AI systems should be structured into the service agreement, ensuring that the supplier consistently maintains performance at various stages and checkpoints.<br>
+<strong>System updates: </strong> AI systems often receive updates and enhancements from third-party providers, which occur post-initial risk assessment. These updates necessitate robust control measures to manage any new risks that may be introduced.<br>
+<strong>Transparency, Explainability, and Auditing:</strong> Ensure that purchasers have sufficient transparency and explainability, along with access to third-party auditing. These measures are crucial for effective risk management, justifying decisions, and correctly assigning legal responsibilities to suppliers.
+</div>
+
+  </div>
+</section>
+
+<!-- CUSTOM RADIO STYLE -->
+<style>
+  .custom-radio {
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 2px solid #2563eb;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .custom-radio:checked {
+    background-color: #2563eb;
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.2);
+  }
+</style>
+
+
+
+
+
+
+
+<!-- Procurement considerations -->
+<section class="bg-gray-100 py-6 px-10">
+  <div class="max-w-7xl mx-auto">
+
+    <!-- Heading -->
+    <h2 class="text-4xl font-light text-gray-800 mb-2">
+      Procurement considerations
+    </h2>
+
+    <p class="text-gray-500 text-lg mb-6">
+     Sufficient contract clauses
+
+
+
+    </p>
+
+    <div class="border-b border-gray-400 mb-8"></div>
+
+    
+    <!-- TABLE -->
+    <div class="overflow-x-auto">
+      <table class="w-full border border-gray-500 text-sm border-collapse">
+
+        <!-- Header Row -->
+        <tr>
+          <td class="p-5 border border-gray-500 bg-blue-50 font-medium w-1/3 align-top">
+            <strong>
+              28. Are the contractual clauses in your contract sufficient for the identified contractual controls?
+
+<div class="mt-0">
+
+
+          </td>
+
+          <!-- PARTIALLY -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">Yes:  </p>
+            <p class="text-sm mt-2">
+             Proceed to next step.
+              <div class="mt-16 text-center">
+
+              </div><input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- NOT SURE -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">No:</p>
+            <p class="text-sm mt-2">
+              If your assessment is against Core&, you must use ICTA. Before proceeding to the next step, and you must reassess against ICTA. If using ICTA, draft appropriate additional conditions through the Order Form of the ICTA to satisfy the treatments.
+            </p>
+           <div class="mt-9 text-center">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- NO -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">Unclear:</p>
+            <p class="text-sm mt-2">
+              Pause the project and consult with either your legal team, responsible officers and risk teams (or both) to determine the status of the clauses and the path forward.
+            <div class="mt-9 text-center">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+        </tr>
+
+        <!-- RESPONSE ROW -->
+        <tr>
+          <td class="p-5 border border-gray-500 bg-blue-50 font-medium">
+            Response – Provide details regarding your assessment of the contractual controls that the chosen contract has against the inherent risks identified.
+
+          </td>
+          <td colspan="4" class="border border-gray-500 p-2">
+            <textarea class="w-full border border-gray-300 rounded p-3 h-28 text-sm"></textarea>
+          </td>
+        </tr>
+
+      </table>
+    </div>
+
+    <!-- BENEFITS INFO BOX -->
+    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-3 mt-8">
+      <p class="text-sm">
+        <strong>ICT purchasing framework amendments: Core& vs ICTA
+ </strong>  Core& is designed to be use as-is with no amendments or additions to the substantive terms. This is why it can only be used for procurements that are both low value and low risk. 
+The ICTA includes the concept of additional condition in the Order Form (Items 11 and 66) that allow for either party to the ICTA to include any terms or conditions that vary or are additional to the terms and conditions set out in the Core or Module terms of the ICTA.
+
+</div>
+
+  </div>
+</section>
+
+<!-- CUSTOM RADIO STYLE -->
+<style>
+  .custom-radio {
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 2px solid #2563eb;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .custom-radio:checked {
+    background-color: #2563eb;
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.2);
+  }
+</style>
+
+
+
+
+
+
+
+
+
+<!-- Procurement considerations29 -->
+<section class="bg-gray-100 py-4 px-10">
+  <div class="max-w-7xl mx-auto">
+
+    <!-- Heading -->
+    <h2 class="text-4xl font-light text-gray-800 mb-2">
+      Procurement considerations
+    </h2>
+
+    <p class="text-gray-500 text-lg mb-6">
+     Questions for suppliers/partners of services
+
+
+
+    </p>
+
+    <div class="border-b border-gray-400 mb-8"></div>
+
+    
+    <!-- TABLE -->
+    <div class="overflow-x-auto">
+      <table class="w-full border border-gray-500 text-sm border-collapse">
+
+        <!-- Header Row -->
+        <tr>
+          <td class="p-5 border border-gray-500 bg-blue-50 font-medium w-1/3 align-top">
+            <strong>
+              29. When considering risks, were there any questions that you could not answer or could only partially answer due to supplier provided products or services?
+<div class="mt-2">
+
+
+          </td>
+
+          <!-- PARTIALLY -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">Yes:  </p>
+            <p class="text-sm mt-2">
+             Document the questions below that will require input from suppliers when you approach the market.
+              <div class="mt-12 text-center">
+
+              </div><input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- NOT SURE -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">No:</p>
+            <p class="text-sm mt-2">
+              Proceed to next step.</p>
+           <div class="mt-12 text-center">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- NO -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">Unclear:</p>
+            <p class="text-sm mt-2">
+              Pause the project and review with the responsible officers and your risk team. <div class="mt-12 text-center">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+        </tr>
+
+        <!-- RESPONSE ROW -->
+        <tr>
+          <td class="p-5 border border-gray-500 bg-blue-50 font-medium">
+            Response 
+          </td>
+          <td colspan="4" class="border border-gray-500 p-2">
+            <textarea class="w-full border border-gray-300 rounded p-3 h-28 text-sm"></textarea>
+          </td>
+        </tr>
+
+      </table>
+    </div>
+
+    <!-- BENEFITS INFO BOX -->
+    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-3 mt-8">
+      <p class="text-sm">
+        <strong>RFx preparation</strong>  RFx documentation should outline supplier requirements to enable you to fulfil your responsibility such as privacy, security measures, algorithmic transparency, bias mitigation, and adherence to ethical principles. This aids in evaluating suppliers for AI selection prioritising safety, security, and ethics.
+        <br><strong>NOTE:</strong> It is critical that once you have the responses from your market engagement that you feed the fully answered questions back through the AI Assessment Framework to determine the outcome and appropriate action.
+For further details on the treatment of risks and how/where to apply them in your procurement process, please refer to the NSW Government Procurement Guidance for AI.
+
+
+
+</div>
+
+  </div>
+</section>
+
+<!-- CUSTOM RADIO STYLE -->
+<style>
+  .custom-radio {
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 2px solid #2563eb;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .custom-radio:checked {
+    background-color: #2563eb;
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.2);
+  }
+</style>
+
+
+
+
+
+
+
+
+<!-- Procurement considerations30 -->
+<section class="bg-gray-100 py-4 px-10">
+  <div class="max-w-7xl mx-auto">
+
+    <!-- Heading -->
+    <h2 class="text-4xl font-light text-gray-800 mb-2">
+      Procurement considerations
+    </h2>
+
+    <p class="text-gray-500 text-lg mb-6">
+     Ensuring use of correct contracting framework
+
+
+
+    </p>
+
+    <div class="border-b border-gray-400 mb-8"></div>
+
+    
+    <!-- TABLE -->
+    <div class="overflow-x-auto">
+      <table class="w-full border border-gray-500 text-sm border-collapse">
+
+        <!-- Header Row -->
+        <tr>
+          <td class="p-5 border border-gray-500 bg-blue-50 font-medium w-1/3 align-top">
+            <strong>
+              30. Are there any residual risk factors with a level above “Low”?
+<div class="mt-2">
+
+
+          </td>
+
+          <!-- PARTIALLY -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">Yes:  </p>
+            <p class="text-sm mt-2">
+             You must use the ICTA contract if you proceed. <div class="mt-12 text-center">
+
+              </div><input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- NOT SURE -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">No:</p>
+            <p class="text-sm mt-2">
+              You may use Core& or ICTA.</p>
+           <div class="mt-12 text-center">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- NO -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">Unclear:</p>
+            <p class="text-sm mt-2">
+              Pause the project and consult with either your legal team, responsible officers and risk teams before proceeding. 
+               <div class="mt-12 text-center"></div>
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+        </tr>
+
+        <!-- RESPONSE ROW -->
+        <tr>
+          <td class="p-5 border border-gray-500 bg-blue-50 font-medium">
+            Response: If your answer is “unclear”, please provide further details here.
+
+          </td>
+          <td colspan="4" class="border border-gray-500 p-2">
+            <textarea class="w-full border border-gray-300 rounded p-3 h-28 text-sm"></textarea>
+          </td>
+        </tr>
+
+      </table>
+    </div>
+
+    <!-- BENEFITS INFO BOX -->
+    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-3 mt-8">
+      <p class="text-sm">
+        <strong>ICT Purchasing Framework Risk Levels:</strong>  All NSW Government agencies must use the ICT Purchasing Framework when buying ICT-related goods and services. The ICT Purchasing Framework comprises
+        <ul><strong>-</strong> Core& contracting framework for ICT procurements that are low risk and up to $1 million (excluding GST)
+</ul>
+<ul><strong>-</strong> MICTA/ICTA contracting framework for ICT procurements that are High risk or over $1 million (excluding GST).
+</ul>
+<p>For further details on how to determine the right contracting framework in the context of AI risks, please refer to the NSW Government Procurement Guidance for AI. 
+For general guidance (i.e., broader than just AI) refer to the Guidelines for Assessing Risk in ICT/Digital Sourcing.
+</p>
+</div>
+
+  </div>
+</section>
+
+<!-- CUSTOM RADIO STYLE -->
+<style>
+  .custom-radio {
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 2px solid #2563eb;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .custom-radio:checked {
+    background-color: #2563eb;
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.2);
+  }
+</style>
+
+
+
+
+
+<!-- Procurement considerations31 -->
+<section class="bg-gray-100 py-4 px-10">
+  <div class="max-w-7xl mx-auto">
+
+    <!-- Heading -->
+    <h2 class="text-4xl font-light text-gray-800 mb-2">
+      Procurement considerations
+    </h2>
+
+    <p class="text-gray-500 text-lg mb-6">
+     System requirements
+
+
+
+
+    </p>
+
+    <div class="border-b border-gray-400 mb-8"></div>
+
+    
+    <!-- TABLE -->
+    <div class="overflow-x-auto">
+      <table class="w-full border border-gray-500 text-sm border-collapse">
+
+        <!-- Header Row -->
+        <tr>
+          <td class="p-5 border border-gray-500 bg-blue-50 font-medium w-1/3 align-top">
+            <strong>
+              31. Did you identify any treatments that are system requirements?
+
+<div class="mt-2">
+
+
+          </td>
+
+          <!-- PARTIALLY -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">Yes:  </p>
+            <p class="text-sm mt-2">
+             Draft Statement of Requirements and Evaluation Criteria adequately address the treatments. Document below the system requirements. <div class="mt-10 text-center">
+
+              </div><input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- NOT SURE -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">No:</p>
+            <p class="text-sm mt-2">
+              Proceed to next step.</p>
+           <div class="mt-14 text-center">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- NO -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">Unclear:</p>
+            <p class="text-sm mt-2">
+              Pause the project and review with the responsible officers and your risk team to determine the status of the treatments and the path forward
+               <div class="mt-10 text-center">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+        </tr>
+
+        <!-- RESPONSE ROW -->
+        <tr>
+          <td class="p-5 border border-gray-500 bg-blue-50 font-medium">
+            Response: 
+
+          </td>
+          <td colspan="4" class="border border-gray-500 p-2">
+            <textarea class="w-full border border-gray-300 rounded p-3 h-28 text-sm"></textarea>
+          </td>
+        </tr>
+
+      </table>
+    </div>
+
+    <!-- BENEFITS INFO BOX -->
+    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-3 mt-8">
+      <p class="text-sm">
+        <strong>RFx preparation: </strong>The Statement of Requirements is a crucial document in the procurement process. It serves as a formal artefact that specifies what you, the buyer, aims to achieve, and how you need to achieve it with the system or solution that you are seeking to procure. Beyond defining the project scope, the Statement of Requirements also establishes the evaluation criteria, provides a common language, facilitates comparability, support effective project management and improves vendor compliance.
+
+</div>
+
+  </div>
+</section>
+
+<!-- CUSTOM RADIO STYLE -->
+<style>
+  .custom-radio {
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 2px solid #2563eb;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .custom-radio:checked {
+    background-color: #2563eb;
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.2);
+  }
+</style>
+
+
+<!-- Procurement considerations32 -->
+<section class="bg-gray-100 py-4 px-10">
+  <div class="max-w-7xl mx-auto">
+
+    <!-- Heading -->
+    <h2 class="text-4xl font-light text-gray-800 mb-2">
+      Procurement considerations
+    </h2>
+
+    <p class="text-gray-500 text-lg mb-6">
+     Procurement controls and mitigation
+    </p>
+
+    <div class="border-b border-gray-400 mb-8"></div>
+
+    
+    <!-- TABLE -->
+    <div class="overflow-x-auto">
+      <table class="w-full border border-gray-500 text-sm border-collapse">
+
+        <!-- Header Row -->
+        <tr>
+          <td class="p-5 border border-gray-500 bg-blue-50 font-medium w-1/3 align-top">
+            <strong>
+             32. Do all risks have appropriate treatments, including the order in which the treatments are applied?</strong>
+             <br>
+           <p>Review the set of treatments and the accompanying residual risk to confirm that all risks are appropriately mitigated or controlled.
+</p>
+
+<div class="mt-2">
+
+
+          </td>
+
+          <!-- PARTIALLY -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">Yes:  </p>
+            <p class="text-sm mt-2">
+             Document below the treatments and the order in which they are applied
+              </div>
+              <div class="mt-14 text-center"></div><input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- NOT SURE -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">No:</p>
+            <p class="text-sm mt-2">
+              Pause the project and consult with the appropriate subject matter experts to determine the risk treatment status.</p>
+           <div class="mt-14 text-center">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+
+          <!-- NO -->
+          <td class="p-4 border border-gray-500 text-center align-top">
+            <p class="font-semibold text-blue-600">Unclear:</p>
+            <p class="text-sm mt-2">
+              Pause the project and review with the responsible officers and your risk team to determine the risk treatment status. <div class="mt-14 text-center">
+              <input type="radio" name="strategic1" class="custom-radio">
+            </div>
+          </td>
+        </tr>
+
+        <!-- RESPONSE ROW -->
+        <tr>
+          <td class="p-5 border border-gray-500 bg-blue-50 font-medium">
+            Response: 
+
+          </td>
+          <td colspan="4" class="border border-gray-500 p-2">
+            <textarea class="w-full border border-gray-300 rounded p-3 h-28 text-sm"></textarea>
+          </td>
+        </tr>
+
+      </table>
+    </div>
+
+    <!-- BENEFITS INFO BOX -->
+    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-3 mt-8">
+      <p class="text-sm">
+        <strong>Procurement approvals: </strong> After considering the provided Procurement Considerations, remember that AI is one of several factors requiring approval by various Agencies and functions. Approvals are needed from stakeholders in procurement, finance, legal, IT, senior management, and sometimes external parties. For guidance on obtaining these approvals, please contact ICTServices@customerservice.nsw.gov.au
+
+</div>
+
+  </div>
+</section>
+
+<!-- CUSTOM RADIO STYLE -->
+<style>
+  .custom-radio {
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 2px solid #2563eb;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .custom-radio:checked {
+    background-color: #2563eb;
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.2);
+  }
+</style>
